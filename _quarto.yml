@@ -1,0 +1,41 @@
+project:
+  type: website
+  pre-render:
+    - scripts/validate_taxonomy.py
+    - scripts/build_board.py
+  output-dir: _site
+  render:
+    - "**/*.qmd"
+    - "!archive/**"
+    - "!_generated/**"
+
+website:
+  title: "Maria del Rio-Chanona"
+  description: "Complexity Economics researcher using Machine Learning, Networks, and Agent-Based Models to study the impact of AI and the net-zero transition on employment"
+  site-url: "https://mariadelriochanona.info/"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about-me.qmd
+        text: About me
+      - href: podcasts-talks.qmd
+        text: Podcasts & Talks
+      - href: blog/index.qmd
+        text: Blog
+      - href: publications.qmd
+        text: Publications
+  page-footer:
+    left: "© Maria del Rio-Chanona"
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/r-maria-del-rio-chanona-8a61a63a/
+      - icon: envelope
+        href: mailto:m.delriochanona@ucl.ac.uk
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: false
+    grid:
+      body-width: 900px

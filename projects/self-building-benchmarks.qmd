@@ -1,0 +1,16 @@
+---
+title: "Self-Building Benchmarks"
+category: llm-agent-behaviour
+labels: [AI Agents, Benchmarks, AI and Jobs]
+image: images/self-building-benchmarks-occupation-performance.png
+thumbnail: images/thumbs/self-building-benchmarks-occupation-performance.jpg
+date: 2025-11
+paper: https://www.brookings.edu/wp-content/uploads/2025/11/Rio-Chanona_Einsiedler_Self-Building-Benchmarks_FINAL.pdf
+venue: "Brookings — working paper"
+description: "LLMs auto-generate and grade their own work-capability exams across occupations; even top models score only 65-79%, though performance jumped 26 points from 2024 to 2025."
+order: 4
+---
+
+**Work in progress.** LLMs are used to automatically generate and evaluate practical work exams for tasks across Finance & Business Operations, Management, and Computer & Mathematics occupations, extending the "LLM-as-a-judge" paradigm to occupational task assessment. Restricting to text-only tasks needing no external tools, only 7% of tasks in these occupations turned out to be testable this way. Across 13 models tested, leading models score a median of 65-79% even on these basic tasks, struggling most with data manipulation and financial calculations — but models released in 2025 averaged 66%, up from 40.5% in 2024. Validation and extending to tool-using tasks are ongoing. [Read more](https://www.brookings.edu/wp-content/uploads/2025/11/Rio-Chanona_Einsiedler_Self-Building-Benchmarks_FINAL.pdf)
+
+![](/images/self-building-benchmarks-occupation-performance.png){fig-alt="Scatter plot of LLM performance over time on occupation-specific exams, grouped by Business and Financial Operations, Computer and Mathematical, and Management occupations"}

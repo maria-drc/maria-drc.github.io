@@ -1,0 +1,15 @@
+---
+title: "A Network Model of the Labour Market"
+category: ai-jobs-public-data
+labels: [AI and Jobs, Networks, Agent-Based Modelling]
+image: images/labour-market-network-model.png
+thumbnail: images/thumbs/labour-market-network-model.jpg
+date: 2021-02
+paper: https://royalsocietypublishing.org/doi/full/10.1098/rsif.2020.0898
+venue: "Journal of the Royal Society Interface"
+description: "A data-driven network model shows how the structure of job-to-job mobility shapes which occupations bear the brunt of automation-driven unemployment."
+---
+
+**A network model of the labour market**. We develop a data-driven network model to study the impact of automation on employment. We find that the network structure plays an important role in determining unemployment levels, with occupations in particular areas of the network having very few job transition. [Read more](https://royalsocietypublishing.org/doi/full/10.1098/rsif.2020.0898)
+
+![](/images/labour-market-network-model.png){fig-alt="Network panel diagram of automation and occupational mobility"}

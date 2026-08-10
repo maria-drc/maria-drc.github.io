@@ -1,0 +1,16 @@
+---
+title: "Machine Spirits: LLM Agents in Asset Markets"
+category: llm-agent-behaviour
+labels: [AI Agents, Agent-Based Modelling, Finance]
+image: images/machine-spirits-bubbles.png
+thumbnail: images/thumbs/machine-spirits-bubbles.jpg
+date: 2026-04
+paper: https://arxiv.org/abs/2604.18602
+venue: "arXiv"
+description: "LLM agents are better human surrogates than rational-expectations models in simulated asset markets — and AI agents in real markets may increase, not reduce, volatility."
+order: 1
+---
+
+**Machine spirits, not animal spirits.** We test 15 LLMs in a simulated asset market to see whether they trade like rational-expectations models, like humans, or neither. None do: LLMs sit on a spectrum between stable coordination on fundamental value and human-like speculative bubbles, and even the most advanced models fail to consistently stabilize prices. In mixed markets, stronger models adapt their forecasts to exploit weaker counterparts — profitable for them, but a source of extra volatility for the market as a whole. [Read more](https://arxiv.org/abs/2604.18602)
+
+![](/images/machine-spirits-bubbles.png){fig-alt="Four-panel comparison of price dynamics for human traders, a rational-expectations model, and LLM agents with and without bubbles"}

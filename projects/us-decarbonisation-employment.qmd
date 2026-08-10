@@ -1,0 +1,15 @@
+---
+title: "US Employment Under Rapid Decarbonisation"
+category: jobs-sustainable-development
+labels: [Climate Transition, Agent-Based Modelling, Networks]
+image: images/us-decarbonisation-employment.jpg
+thumbnail: images/thumbs/us-decarbonisation-employment.jpg
+date: 2024-11
+paper: https://www.cell.com/joule/fulltext/S2542-4351(24)00539-7
+venue: "Joule"
+description: "Modelling a 95%-by-2035 decarbonisation of the US electricity sector reveals distinct scale-up, scale-down, and steady-state phases in the job market."
+---
+
+****US Employment dynamics under rapid decarbonisation**** We analyze the employment dynamics of a fast transition scenario for the US electricity sector that reaches 95% decarbonization by 2035. We find three distinct labor market phases during the transition: scale-up, scale-down and a long-term steady state. During the scale-up phase, for every job lost in a given industry, twelve new jobs are created elsewhere. But only a few occupations experience a consistent increase in demand throughout the transition. [Read more](https://www.cell.com/joule/fulltext/S2542-4351(24)00539-7)
+
+![](/images/us-decarbonisation-employment.jpg){fig-alt="Chart of total additional worker demand over time under a rapid decarbonisation scenario"}

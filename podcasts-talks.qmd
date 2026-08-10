@@ -1,0 +1,70 @@
+---
+title: "Podcasts & Talks"
+---
+
+## Podcasts
+
+- [Austrian AI – Harvesting social networks for agent based modelling using NLP.](https://open.spotify.com/episode/5p3nvjuSWEfRd4EgqhXlsi) Join Manuel Pasieka on a conversation about data-driven economics and using Natural Language Processing to study the Great Resignation.
+- [The Knowledge Archives](https://www.youtube.com/watch?v=xZFAORAuavw) – [Economic Modelling During COVID-19](https://www.youtube.com/watch?v=xZFAORAuavw). Join Madhav Malhotra and me on a conversation about data-driven economics and the experience of modelling the economy during Covid.
+- [Complexity by the Santa Fe Institute](https://complexity.simplecast.com/episodes/15) – Modeling Labor Markets & Tech Unemployment. Join Michael Garfield and me on conversation about work, it's evolution and the upcoming challenges
+- [La Arana Patona by the Intituto de Energías Renovables, UNAM. Capital humano.](http://imryt.org/radio/la-arana-patona/capital-humano) Join José de la Herrán and me on a conversation about human capital [Spanish podcast] .
+
+---
+
+## Talks & Workshops
+
+#### Selected recorded talks
+
+- Supply and demand shocks of the Covid-19 pandemic. Oxford Martin School, The economics of the COVID-19 pandemic lecture series, 16 September 2020, [Watch here](https://www.crowdcast.io/e/supply-and-demand-shocks/register)
+- Occupational mobility and automation. MPI Centre for Humans and Machines seminar series, November 2020,  [Watch here](https://www.youtube.com/watch?v=o_UpB3uV080&t=2s)
+- The multiplex nature of global financial contagion and the economy. NetSci Satellite [MixNext2020](https://manliodedomenico.com/MIXNEXT2020/), 9 December 2020, [Watch here](https://www.youtube.com/watch?v=LZWHEBtGmio)
+
+#### Upcoming and previous talks
+
+- Sep 8–10, 2025 – Data-driven and Economic (AI) Agent-Based Models, Keynote lecture, 3rd DISEI-Workshop on Heterogeneity, Evolution and Networks in Economics (University of Florence – DISEI), Florence, Italy.
+- Jul 9, 2025 – Can generative AI agents behave like humans? Evidence from market experiments, Keynote lecture, ECO²STAT 2025 (StatPhys29 Satellite), Cagliari, Italy.
+- Jun 18–20, 2025 – PSE–CEPR Policy Forum (participant; on-site interview "How good are LLMs at doing our jobs?" recorded at the Forum, released Jul 9, 2025), [Paris School of Economics & CEPR,](https://cepr.org/events/event-series/pse-cepr-policy-forum/pse-cepr-policy-forum-2025?utm_source=chatgpt.com) Paris, France.
+- Jun 16, 2025 – AI's Impact on Social and Economic Distributions (ACtioN roundtable; participant), [Santa Fe Institute & Google DeepMind](https://www.santafe.edu/events/action-briefing-ais-impact-on-social-and-economic-distributions?utm_source=chatgpt.com), London, UK
+- Jun 12, 2025 – Systematic Evaluation of AI's Capabilities in Finance and Business Occupations, CEPR/CSH/OeNB workshop "Preparing for the AI Revolution" ([Austrian Central Bank](https://cepr.org/system/files/2025-06/AI%20Workshop%202025-06-12.pdf)), Vienna, Austria
+- Jun 9, 2025 – (Invited talk) [2nd British NetSci Symposium](https://www.netsci.uk/events.html) (British Network Science Society, hosted at UCL), London, UK.
+- Aug 21, 2024 – Large Language Models: Impact on Digital Public Goods and Online Labor Markets, [CSH Talk](https://csh.ac.at/events/large-language-models-impact-on-digital-public-goods-and-online-labor-markets/) (Complexity Science Hub), Vienna, Austria
+- Jul 11–12, 2024 – PhD short course ([WEHIA 2024](https://ysi.ineteconomics.org/event/ysi-27th-annual-workshop-on-economic-science-with-heterogeneous-interacting-agents/?utm_source=chatgpt.com)), Workshop on Economic Science with Heterogeneous Interacting Agents (University of Bamberg), Bamberg, Germany.
+- Jul 8, 2024. Topological Data Analysis (TDA) for Complex Systems, Mathematics & [Data Science Colloquium](https://www.tu-chemnitz.de/wirtschaft/vwl2/forschungsseminar/Programm_SS24_V4_English.pdf?utm_source=chatgpt.com) (TU Chemnitz), Chemnitz, Germany.
+- May 31, 2024. Networks for economics and society Invited lecture, 'Complex Networks: Theory, Methods, and Applications' [(Lake Como School of Advanced Studies), Como, Italy](https://ntmh.lakecomoschool.org/)
+- Apr 3, 2024 – Occupational and Regional Employment Dynamics and Bottlenecks in Net-Zero Transition Scenarios, [CSH Talk](https://csh.ac.at/events/occupational-and-regional-employment-dynamics-and-bottlenecks-in-net-zero-transition-scenarios/) (Complexity Science Hub), Vienna, Austria
+- Feb 20, 2024. Occupational and regional employment dynamics and bottlenecks in net-zero transition scenarios, POID/PRINZ Research Seminar (LSE), London, UK
+- June 8, 2023. [Economic Fitness and Complexity Summer School](https://efc-school.cref.it/).
+- June 5, 2023. Panel at the LSE Commission on Pandemic Governance and Inequalities. [Video here](https://www.feam.eu/events/periscope-conference-pandemic-governance-and-inequalities-5-june-2023-1030-1930-cet/).
+- May 26, 2023. ANET Lab Seminar series.
+- January 31, 2023. On Agent-Based Modelling. [Winter Workshop on Complex Systems](https://wwcs2023.github.io/)
+- January 15-19, 2023. Division of labor and social cohesion. Complexity Science Hub Winter School.
+- October 31, 2022. The impact of automation and the Covid-19 pandemic on the labor market and the causes of the Great Resignation. Harvard Growth Lab seminar
+- September 29, 2022. Diversifying AI: How to achieve diversity?, Hosting panel discussion at [RIIAA LatAm](https://www.riiaa.org/).
+- September 28, 2022. A non equilibrium labor market model of occupational mobility and labor transformations, [DDEABM workshop](https://sites.google.com/view/wddeabm).
+- September 22, 2022. How Can Complexity Economics Give More Insight Into Political Economy, Santa Fe Institute ACtioN [Briefing.](https://santafe.edu/events/action-briefing-how-can-complexity-economics-give-more-insight-political-economy)
+- August 12, 2022. Complexity economics – a non-equilibrium approach to policy, Government Economics Network in New Zealand annual conference [(GEN 2022)](https://gen.org.nz/annual-conference/gen-2022-annual-conference/)
+- August 10, 2022. Consequences of heterogeneity in labor markets and firms outcomes, Santa Fe Institute [seminar](https://www.santafe.edu/events/consequences-heterogeneity-labor-markets-and-firms-outcomes).
+- July 12, 2022. Agent Based Modelling: Applications to inequality, [Complexity GAINs](https://www.santafe.edu/engage/learn/programs/complexity-gains-international-summer-school) summer school.
+- April 4, 2022. Workshop on Supply Chain Networks and Input-Output Modeling, World Bank. Joint talk with Anton Pichler
+- February 16, 2022. Data-Driven and Non-Equilibrium Network Models of the Economy: Applications to the COVID-19 pandemic and automation in the labour market, [CEU seminar](https://events.ceu.edu/2022-02-16/data-driven-and-non-equilibrium-network-models-economy-applications-covid-19-pandemic).
+- January 11, 2022. Labour market transitions: Findings and research directions from a novel dataset, [ILO webinar.](https://www.ilo.org/global/research/events-courses/WCMS_832798)
+- December 13 2021. Complexity Economics, Complex systems course at IIMAS, UNAM.
+- July 15, 2021. [How AI can drive the skills revolution](https://www.eventbrite.co.uk/e/how-ai-can-drive-the-skills-revolution-tickets-162336471757), LearnTech meet up.
+- June 30, 2021. NetSci 2021 Satellite [Complex Networks in Economics and Innovation](https://mrfrank8176.github.io/Complex-Networks-in-Economics-and-Innovation/)
+- February 19, 2021. Occupational mobility and automation. Simulation-based Science colloquium.
+- December 17, 2020. The economic impact of the COVID-19 pandemic: A non-equilibrium network model. UBICS Complex Systems and COVID-19 seminar series.
+- December 9, 2020. The multiplex nature of global financial contagion and the economy. NetSci Satellite [MixNext2020](https://manliodedomenico.com/MIXNEXT2020/). [Watch here](https://www.youtube.com/watch?v=LZWHEBtGmio)
+- November 17, 2020. Occupational mobility and automation. MPI Centre for Humans and Machines seminar series, [Watch here](https://www.youtube.com/watch?v=o_UpB3uV080&t=2s)
+- October 29, 2020. El impacto económico de COVID-19 en industrias y profesiones, C3 UNAM lunch complejo, [Watch here](https://www.youtube.com/watch?v=DwZsgMnLfI4&t=2057s)
+- September 16, 2020. Oxford Martin School, The economics of the COVID-19 pandemic lecture series, [Watch live](https://www.crowdcast.io/e/supply-and-demand-shocks/register) or [later](https://www.youtube.com/watch?v=5wtNm6ETuLQ&feature=youtu.be)
+- September 21, 2020, Lightning talks, NetSci 2020.
+- July 18, 2020. IC2S2 Conference, [Conference video link here](https://ic2s2.pathable.co/meetings/kgH75cf4qiJbKof49#/)
+- July 2, 2020. INET Young Scholar, with [Anton Pichler](http://anton-pichler.com/), [Watch talk here](https://youngscholarsinitiative.zoom.us/rec/play/6McvI-z7p2k3H9SUsQSDAf8qW47oKv-shnUfrPpfzEm1AiNSNlumM7oQN-rhV1zIkwwFuK4Lu6MNHI5M)
+- May 12, 2020. Geneva Macro Labs Webinar, [Watch webinar here](https://gemlabs.ch/videos/webinar_2020-05-13/)
+- May 11, 2020. Harvard Growth Lab Seminar.
+- April 22, 2020. Financial Computing Seminar at UCL, [Watch talk here](https://www.youtube.com/watch?v=M7NJH_jfjUo&feature=emb_logo)
+- November 2019. [PastNet](https://www.eventbrite.com/e/complexity-science-and-past-complex-systems-tickets-77270549293#), Complexity Science and Past Complex Systems,
+- November 2019. [New Complexity Economics](https://wiki.santafe.edu/index.php/Annual_Applied_Complexity_Network_and_Board_of_Trustees_Symposium:_New_Complexity_Economics_Agenda), ACtioN meeting hosted by Santa Fe Institute, Santa Fe New Mexico.
+- October 2019. [Data Science Meets the Economics of Science, Technology and Innovation](https://warwick.ac.uk/fac/soc/economics/research/centres/cage/events/25-10-19-data_science_meets_the_economics_of_science_technology_and_innovation/), Workshop organized by CAGE-NESTA.
+- 2018. [AI, Computational Social Science, and the Future of Work Topical Meeting](https://wiki.santafe.edu/index.php/AI,_Computational_Social_Science,_and_the_Future_of_Work). ACtioN meeting hosted by Santa Fe Institute and Willis Towers Watson, London .
+- 2017. [Shifting Paradigms – Economics in the 21st Century](http://www.rethinkeconomics.org/events/shifting-paradigms-economics-21st-century/). Aberdeen Political and Economic Group, Aberdeen 2017.

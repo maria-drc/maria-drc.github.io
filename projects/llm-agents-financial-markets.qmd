@@ -1,0 +1,16 @@
+---
+title: "LLM Agents in Financial Markets"
+category: llm-agent-behaviour
+labels: [AI Agents, Agent-Based Modelling, Finance]
+image: images/llm-agents-financial-markets.jpg
+thumbnail: images/thumbs/llm-agents-financial-markets.jpg
+date: 2025-05
+paper: https://arxiv.org/abs/2505.07457
+venue: "arXiv"
+description: "LLM-based agents mimic human trading behaviour in laboratory market experiments, forming bubbles but with less diversity in their forecasts."
+order: 2
+---
+
+**Economic and Financial markets.** 📈 💸 We shows that LLMs agents can, to some extent, mimic human market behaviour. LLM agents created bubbles in financial markets and displayed bounded rationality much like humans do, but with notably less diversity in their forecasts. [Read more](https://arxiv.org/abs/2505.07457)
+
+![](/images/llm-agents-financial-markets.jpg){fig-alt="Grid plot comparing human and LLM model price forecasts across time steps"}

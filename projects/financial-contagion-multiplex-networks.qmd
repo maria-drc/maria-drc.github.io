@@ -1,0 +1,20 @@
+---
+title: "Multilayer Networks and Financial Contagion"
+category: finished-projects
+labels: [Networks, Finance]
+image: images/financial-contagion-multiplex-network.png
+thumbnail: images/thumbs/financial-contagion-multiplex-network.jpg
+date: 2020-08
+paper: https://appliednetsci.springeropen.com/articles/10.1007/s41109-020-00301-2
+venue: "Applied Network Science"
+description: "A multilayer network approach reveals how interconnected equity, debt, and banking exposures propagate financial contagion across countries."
+---
+
+We study interconnectedness of the global financial system and its susceptibility to shocks. We study multiple channels of financial contagion using a multilayer network approach.
+
+![](/images/financial-contagion-multiplex-network.png){fig-alt="Multilayer network diagram of countries connected by equity, debt, and banking exposures"}
+
+References
+
+- Korniyenko, Yevgeniya, et al. "Evolution of the global financial network and contagion: A new approach." International Monetary Fund, 2018. [Read here](https://books.google.co.uk/books?hl=en&lr=&id=3IJeDwAAQBAJ&oi=fnd&pg=PP1&dq=info:XEUg-V9_KW4J:scholar.google.com&ots=KIPVw1FfFv&sig=5_e8sNFAXjIr5veYr61rt-V17yw&redir_esc=y#v=onepage&q&f=false)
+- del Rio-chanona, R. Maria, et al. "The Multiplex Nature of Global Financial Contagions" *Applied Network Science*, (2020). [Read here](https://appliednetsci.springeropen.com/articles/10.1007/s41109-020-00301-2)

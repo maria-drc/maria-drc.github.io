@@ -1,0 +1,16 @@
+---
+title: "Misinformation Resharing in VLMs"
+category: llm-agent-behaviour
+labels: [AI Agents]
+image: images/misinformation-resharing-vlms.jpeg
+thumbnail: images/thumbs/misinformation-resharing-vlms.jpg
+date: 2025-05
+paper: https://arxiv.org/abs/2505.13302
+venue: "arXiv"
+description: "Vision-language models reshare false news more readily when it includes an image, and personality traits shape this further."
+order: 3
+---
+
+**Misinformation spreading.**  We study vision-Language Models' (VLMs) propensity to reshare news content. Our key findings are that: Image presence increases resharing rates by 4.8% for true news but a much larger 15.0% for false news. Dark Triad personality traits (narcissism, Machiavellianism, psychopathy) amplify resharing of false news. Republican-aligned profiles show reduced sensitivity to veracity, sharing both true and false news at similar rates. [Read more](https://arxiv.org/abs/2505.13302)
+
+![](/images/misinformation-resharing-vlms.jpeg){fig-alt="Chart of resharing rates by model and news veracity"}

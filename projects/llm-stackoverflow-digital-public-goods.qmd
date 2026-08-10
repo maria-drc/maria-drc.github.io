@@ -1,0 +1,15 @@
+---
+title: "LLMs and Digital Public Goods"
+category: ai-jobs-public-data
+labels: [AI and the Economy]
+image: images/chatgpt-stackoverflow-impact.png
+thumbnail: images/thumbs/chatgpt-stackoverflow-impact.jpg
+date: 2024-09
+paper: https://academic.oup.com/pnasnexus/article/3/9/pgae400/7754871
+venue: "PNAS Nexus"
+description: "ChatGPT's release coincided with a sharp, sustained drop in Stack Overflow activity, raising concerns about the future of open knowledge sharing."
+---
+
+**Impact on Digital Public Goods**. We study the impact of Large Language Models (LLMs) on digital public goods, focusing on Stack Overflow. We estimate a 16% decrease in weekly posts on Stack Overflow after the release of ChatGPT, escalating to 25% by June. This widespread LLM adoption might diminish public web exchanges, thereby constraining the open data available for future learning. [Read more](https://academic.oup.com/pnasnexus/article/3/9/pgae400/7754871)
+
+![](/images/chatgpt-stackoverflow-impact.png){fig-alt="Time series of Stack Overflow weekly posts before and after ChatGPT's release"}

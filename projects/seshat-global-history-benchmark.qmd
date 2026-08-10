@@ -1,0 +1,17 @@
+---
+title: "Seshat Global History Benchmark"
+category: llm-agent-behaviour
+labels: [Benchmarks]
+image: images/seshat-benchmark-results.png
+thumbnail: images/thumbs/seshat-benchmark-results.jpg
+date: 2024-12
+paper: https://neurips.cc/virtual/2024/poster/97439
+venue: "NeurIPS 2024"
+description: "A 36,000-question benchmark testing how well LLMs understand 600+ historical societies from the Seshat Databank."
+---
+
+**Global History Benchmark**. We build a benchmark using the Seshat Databank—an interdisciplinary effort , where over a decade of work went into interpreting books and articles to compile facts about 600+ historical societies. We tested LLMs on 36,000+ questions derived from the databank. In a four-choice format, LLMs achieved balanced accuracy between 33.6% (LLama-3.1-8B) and 46% (GPT-4-Turbo)—better than random guessing (25%) but far from expert comprehension. LLMs perform better on earlier historical periods. Regionally, performance is better for the Americas and lowers in Oceania and Sub-Saharan Africa  for the more advanced models. [Read more](https://neurips.cc/virtual/2024/poster/97439)
+
+Seshat-derived history questions also contributed to [Humanity's Last Exam](https://doi.org/10.1038/s41586-025-09962-4), published in *Nature*.
+
+![](/images/seshat-benchmark-results.png){fig-alt="Screenshot of benchmark results table across historical periods and regions"}

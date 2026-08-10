@@ -1,0 +1,15 @@
+---
+title: "ChatGPT and Demand for Freelancer Skills"
+category: ai-jobs-public-data
+labels: [AI and Jobs]
+image: images/chatgpt-freelancer-skills-demand.png
+thumbnail: images/thumbs/chatgpt-freelancer-skills-demand.jpg
+date: 2024-11
+paper: https://www.sciencedirect.com/science/article/pii/S0167268124004591
+venue: "Journal of Economic Behavior & Organization"
+description: "ChatGPT's release sharply cut demand for substitutable freelance skills like writing and translation, while some complementary skills grew."
+---
+
+**ChatGPT changed demand for skills**. We study how the introduction of ChatGPT changed demand for freelancers in substitutable and complementary skills. Demand for substitutable skills, such as writing and translation, decreased by 20-50%. Within complementary skill clusters, the results are mixed: demand for machine learning programming grew by 24%, and demand for AI-powered chatbot development nearly tripled, while demand for novice workers declined in general. [Read more](https://www.sciencedirect.com/science/article/pii/S0167268124004591)
+
+![](/images/chatgpt-freelancer-skills-demand.png){fig-alt="Scatter plot of skill clusters in embedding space, labelled complementary, substitutable, and unaffected"}

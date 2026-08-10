@@ -1,0 +1,15 @@
+---
+title: "Skill Mismatch and Development in Brazil"
+category: jobs-sustainable-development
+labels: [Climate Transition, Networks, Agent-Based Modelling]
+image: images/brazil-skill-mismatch.png
+thumbnail: images/thumbs/brazil-skill-mismatch.jpg
+date: 2025-03
+paper: https://arxiv.org/abs/2503.05310
+venue: "arXiv"
+description: "A labour market model of occupational and regional mobility shows Brazilian workers in agriculture-heavy transition scenarios face the largest, least mobile job losses."
+---
+
+**Skill mismatch and sustainable development in Brazil**. We develop a labor market model of occupational and regional mobility to study development scenarios for Brazil. We examine emission-intensive scenarios (agriculture due to Amazon deforestation) versus less intensive ones (manufacturing). We find that agricultural scenarios hit workers harder due to limited occupational and geographic mobility, potentially worsening inequality without targeted policies. [Read more](https://arxiv.org/abs/2503.05310)
+
+![](/images/brazil-skill-mismatch.png){fig-alt="Chart of occupational mismatch scenarios for Brazil"}

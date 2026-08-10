@@ -1,0 +1,32 @@
+# Single source of truth for the two independent taxonomy axes used across
+# the site. See CLAUDE.md for how to add/rename/merge/reorder entries.
+#
+# categories: exactly ONE per project, controls ONLY which homepage section
+#   a project appears in (and the section order, via the order below).
+#   Keys (slugs) are stable identifiers referenced from project frontmatter;
+#   values (name) are the display text and are safe to rename freely.
+#
+# labels: MANY per project, fine-grained topical tags used for filtering.
+#   Flat controlled vocabulary — append new ones freely, avoid renaming
+#   existing ones since they're the stable long-lived layer.
+
+categories:
+  - slug: llm-agent-behaviour
+    name: "LLM / AI agent behaviour"
+  - slug: ai-jobs-public-data
+    name: "Impact of AI on jobs and public data"
+  - slug: jobs-sustainable-development
+    name: "Jobs and sustainable development"
+  - slug: finished-projects
+    name: "Other research"
+
+labels:
+  - AI Agents
+  - Agent-Based Modelling
+  - Benchmarks
+  - AI and Jobs
+  - AI and the Economy
+  - Covid-19
+  - Finance
+  - Networks
+  - Climate Transition

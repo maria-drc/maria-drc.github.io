@@ -1,0 +1,12 @@
+---
+title: "AI and Jobs: A Review"
+category: ai-jobs-public-data
+labels: [AI and Jobs, AI and the Economy]
+date: 2025-09
+paper: https://arxiv.org/abs/2509.15265
+venue: "arXiv"
+description: "A review of theory, exposure measures, and evidence on generative AI's labour-market effects — productivity gains are sizable but context-dependent, concentrated in high-wage occupations."
+order: 1
+---
+
+**AI and jobs: theory, estimates, and evidence.** We review research on generative AI's labour-market effects across theory, occupational exposure measures, and empirical evidence from experiments and digital platforms. Productivity gains are sizable but context-dependent — 20-60% in controlled experiments, 15-30% in field settings — and effects concentrate in high-wage occupations. Evidence on employment is mixed: novice workers gain more on simple tasks, while platform data shows substitution in writing and translation work. We flag key gaps: most experiments test simple tasks on a narrow set of models, and adoption dynamics (whether exposure means substitution or productivity gains) remain understudied. [Read more](https://arxiv.org/abs/2509.15265)

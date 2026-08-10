@@ -1,0 +1,11 @@
+---
+title: "Publications"
+---
+
+::: {.callout-note}
+Placeholder. This page is generated from a Google Scholar BibTeX export by
+`scripts/bib_to_qmd.py` in Phase 4 — supply the `.bib` file and it will be
+regenerated automatically.
+:::
+
+In the meantime, see the [Google Scholar profile](https://scholar.google.com/citations?user=HwK5iiEAAAAJ&hl=en&oi=ao).

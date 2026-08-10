@@ -1,0 +1,33 @@
+# No Ghosting: How an Online School Fling led to a study on the Great Resignation
+
+Have you ever gone to a summer school, kicked-off a research project with other students, and actually published your findings? It’s quite a rare achievement. Often, once the in-person buzz dims and the final goodbyes are said, projects tend to fizzle out and participants end-up ghosting each other as excitement fades. But for me, this time was different. I matched with a team and we didn’t just keep the conversation going; we published our study on the Great Resignation — the highest spike in U.S. job quits in three decades.  And the most astonishing part? The summer school was completely online.
+
+In 2021, I participated in the Computational Social Science Summer Institute at its London branch organized by Joshua Becker and Mike Yeomanss among others. The format was a week of online (flipped classroom) lectures followed by a week dedicated to project work. I found myself in an interdisciplinary team with psychologists, linguists, sociologists and mathematicians. Our research project? To explore digital traces of work and the impact of unemployment on mental health, using data from Reddit.
+
+I admit my main motivation for continuing to meet with the team online was that it was fun! With the UK still under strict lockdown measures, these lively online gatherings were a highlight. However, as news of record-high job quits in the US began to surface, we realized that our Reddit data on work discourse was great for understanding the reasons behind the Great Resignation. Reddit mentions of quits and fires showed the same trend in 2020 and beginning of 2021 than the US labor market data.
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdX2S6bf8aGgEZ5_g2MbzDy_lvSf94aHWKEKmPCDkPfVexR7ej5VdCXiw1VyZ1jpbteVcRMpogpLSkV8HBAN1YsX8Sg57rXhhvZ7taB3nmnktF_X0K3PHJWoIziEMzbMRUKK-og2dRJ9u6THZjqrrOP9a0)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd1a4ZbuT35FZC2axI1pGbZyDqjD5makTv9D_HONzKHkIekyMSgj9irYrD5GiwpKTW028HuVcfrik4-8B2xVPxl-TzOQ9vcdmuVDlwvsqSHkzhczqzz6A07yYIUC9qdkjgJRy7h-Oj2SVtsH54RsDWQUSPi)
+
+***Figure 1 US labor market and Reddi****t. (A) The U.S. quit and layoff rates from December 2000 to December 2021. Recession periods are marked with grey shaded areas. The top right corner zooms into the 2018-2020 time series for easier comparison with the Reddit time series. (B) The share of quit- and fire- related posts from 2018 to 2021. In both panels the dashed vertical line corresponds to March 2020, the orange shaded area to the Great Resignation period.*
+
+Using a topic model we found the work discourse shifted during the pandemic and the Great Resignation.  We observed an uptick in dialogues about working from home, remote jobs, and mental health, contrasted by a decrease in commuting discussions.  But was it these mental health concerns driving the quits? To answer this, we needed a more detailed econometric analysis. It also posed the perfect opportunity to see if our online team chemistry could indeed translate into an effective in-person collaboration and organize a workshop in Vienna.  
+  
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnHNnE1Rdf2YX7wLsVsHQM5Ft4ZdP1B2vrsCNxUB4ShyJJ84ir0RhzdvHqEtKcRWE270KdMHhSrv9sIUxj7q8ZLj8VcFVy40vvDREBtzDztJcgFqHeB91u56zdOwKQQPA53lOjtbaRWyktnz3jRFXA4yw)  
+***Figure 1  Shifts in overall topic prevalence.*** *This figure shows the time coefficient of the regression in Eq. (1). Blue bars indicate a positive coefficient with a p-value below 0.05, while green bars indicate a negative coefficient with a p-value below 0.05. In grey, three relevant topics that do not present a significant change (p-value above 0.05) are added. Topics with a star at the end correspond to multi-topics, and the name may be shortened to a single topic.*  
+  
+  
+Meeting the research team in Vienna for the first time felt like a successful first Tinder date – some surprises about each other’s heights, but a far better connection in person than online. This gathering wasn’t just about finally putting faces to names. Organized with support from the Complexity Science Hub, in the workshop we received very useful feedback in the workshop, and also caught the interest of Ljubica Nedelkoska –  an experienced economist from Harvard and CSH.   
+  
+We met in person in Vienna, in a workshop on the Great Resignation we organized and got funding from the Complexity Science Hub. Meeting in Vienna for the first time felt like a successful first Tinder date – some surprises about each other’s heights, but a far better connection in person than online. We also received very useful feedback in the workshop, and also caught the interest of Ljubica Nedelkoska –  an experienced economist from Harvard and CSH.   
+  
+Ljubica joined our team and with her help we conducted a difference-in-differences analysis between groups discussing quitting and control groups. We discovered a significant increase in mental health concerns among those talking about quitting post-pandemic.The relationship between mental health concerns and quitting remained relatively constant. This suggests that the pandemic did not change the nature of this relationship but rather increased the prevalence of mental health and work-related distress, leading to more quits  
+  
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXefAYnORbnaDbmuKxP10st1CpqZleU3xL1Y_R7k8l7ynCGoNGt3z5bo2Hgd485LHwcBWUc-o0ceAa0hOnYkgeDAVJMWisdJjiGtnAA-GtYf3SXJVWVSiGrdZ0JRsccELJzgKGUfoq0asbXSX9_nPiOOb34U)  
+***Figure 3. Difference-in-Differences analysis for selected topics****. Relative changes in prevalence in selected topics among quit-related posts. Positive values indicate an increase in prevalence and negative values a decrease. The dashed grey line marks the onset of the pandemic (March 2020), while the shaded area represents the period of the Great Resignation (2021).*  
+  
+  
+Reflecting on this journey, it’s clear why this was the only remote school project that led to a published paper. While in-person chemistry is hard to predict when transitioning to remote collaboration, starting remotely and finding that chemistry can lead to a lasting and productive partnership.
+
+**Update!**  
+Together with my co-first-author Alejandro, we are organising SICSS-London 2025!

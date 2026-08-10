@@ -1,0 +1,29 @@
+---
+title: "COVID-19 Economic Impact"
+category: finished-projects
+labels: [Covid-19, Agent-Based Modelling]
+image: images/covid-nyc-health-economy-tradeoff.png
+thumbnail: images/thumbs/covid-nyc-health-economy-tradeoff.jpg
+date: 2020-04
+paper: https://academic.oup.com/oxrep/advance-article/doi/10.1093/oxrep/graa033/5899019
+venue: "Nature Human Behaviour, JEDC, Oxford Review of Economic Policy"
+description: "A series of agent-based and input-output models quantified the sectoral, industry, and health-economy trade-offs of the COVID-19 shock in the US, UK, and NYC."
+---
+
+We integrated an economic and an epidemic agent-based models to assess the health-economy trade-off in New York City.
+
+![](/images/covid-nyc-health-economy-tradeoff.png){fig-alt="Diagram of the integrated economic and epidemic model modules"}
+
+The economic model we developed predicted the economic impact of the pandemic on UK economy well at both the aggregate and sectoral level.
+
+![](/images/covid-uk-economic-impact.jpg){fig-alt="Chart comparing predicted and actual UK economic impact of COVID-19"}
+
+We provide quantitative predictions of first order COVID-19 supply and demand shocks for the US economy. Compared to the pre-COVID period, these shocks threaten around 20% of the US economy's GDP and jeopardize 23% of jobs.
+
+![](/images/covid-us-supply-demand-shocks.png){fig-alt="Labelled chart of US occupations by essential status and supply/demand shock exposure"}
+
+References
+
+- Pangallo, Marco, et al. "The unequal effects of the health–economy trade-off during the COVID-19 pandemic." *Nature Human Behaviour* (2023). [Read here](https://www.nature.com/articles/s41562-023-01747-x)
+- Pichler, Anton, et al. "Forecasting the propagation of pandemic shocks with a dynamic input-output model" *Journal of Economic Dynamics and Control* (2022). [Read here](https://www.sciencedirect.com/science/article/pii/S0165188922002317)
+- del Rio-Chanona, R. Maria, et al. "Supply and demand shocks in the COVID-19 pandemic: An industry and occupation perspective." *Oxford Review of Economic Policy* (2020). [Read here](https://academic.oup.com/oxrep/advance-article/doi/10.1093/oxrep/graa033/5899019)

@@ -1,0 +1,19 @@
+---
+title: "The Great Resignation"
+category: finished-projects
+labels: [Covid-19]
+image: images/great-resignation-reddit-topics.png
+thumbnail: images/thumbs/great-resignation-reddit-topics.jpg
+date: 2023-10
+paper: https://epjds.epj.org/articles/epjdata/abs/2023/01/13688_2023_Article_417/13688_2023_Article_417.html
+venue: "EPJ Data Science"
+description: "Text analysis of Reddit posts links the Great Resignation to a pandemic-era surge in mental health and work-related distress discourse."
+---
+
+We use text analysis to investigate the changes in work- and quit-related posts between 2018 and 2021 on Reddit. We find that mental health and work-related distress topics disproportionally increased among quit-related posts since the onset of the pandemic, likely contributing to the Great Resignation.
+
+![](/images/great-resignation-reddit-topics.png){fig-alt="Bar chart of topic prevalence shifts in quit-related Reddit posts before and after March 2020"}
+
+References
+
+- del Rio-Chanona, R. Maria, et al. "Mental health concerns precede quits: shifts in the work discourse during the Covid-19 pandemic and great resignation" *EPJ Data Science (2023)*. [Read here](https://epjds.epj.org/articles/epjdata/abs/2023/01/13688_2023_Article_417/13688_2023_Article_417.html)

@@ -1,0 +1,278 @@
+/*-- scss:defaults --*/
+// Functional first pass for the Phase 3 board layout. Palette/type/spacing
+// are placeholders — the real design system comes in Phase 5 after
+// reviewing options together. Keep this file's job narrow: make the
+// derived, auto-fit grid behave correctly at all widths.
+
+/*-- scss:rules --*/
+
+// ---- Bio section (index.qmd only) ----
+// Deliberately NOT given a column-* class, so it stays in Quarto's default
+// body-content grid track (sized by grid.body-width in _quarto.yml) and
+// shares the exact same left/right edge as the auto-generated <h1> title
+// above it. Do not add horizontal padding or a max-width here — either
+// one reintroduces a left-edge mismatch against the title block.
+.bio-section {
+  margin: 2rem 0;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.profile-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.bio-text {
+  flex: 1 1 400px;
+  min-width: 260px;
+}
+
+// ---- "Research highlights" heading above the board ----
+.board-heading {
+  max-width: 1400px;
+  margin: 1rem auto 0;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  text-align: center;
+
+  // The heading's own default theme margin would otherwise collapse with
+  // (and win over, being larger than) this wrapper's margin-top above —
+  // zero it out so the 1rem set here is the actual gap rendered.
+  h2 {
+    margin: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    font-size: 1.4rem;
+  }
+}
+
+// ---- Project board (derived columns) ----
+.project-board {
+  // max-width + padding (not max-width alone) so cards never sit flush
+  // against the viewport edge, even when the viewport is exactly 1400px.
+  max-width: 1400px;
+  margin: 1.5rem auto 0;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  display: grid;
+  // auto-fit: collapses a track only when it has NO grid item assigned to
+  // it at all, so it evenly fills real columns across the full width. A
+  // filtered-out category still counts as a real (if visually empty) grid
+  // item — see js/board-filter.js, which deliberately never sets
+  // display:none on a whole .board-column — so its track isn't collapsed
+  // and sibling columns don't stretch to fill the row when filtering.
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.board-column-title {
+  font-size: 1.05rem;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e2ddd3;
+}
+
+// While a tag filter is active, results should read as a flat set of
+// matches rather than still grouped under a category/section label.
+body.is-filtered .board-column-title,
+body.is-filtered .finished-title {
+  display: none;
+}
+
+// The divider above Finished projects is part of .finished-section itself
+// (not the now-hidden title), so it has to be turned off separately —
+// otherwise a lone filtered match sits under an unlabelled floating rule.
+body.is-filtered .finished-section {
+  border-top: none;
+  margin-top: 1.5rem;
+  padding-top: 0;
+}
+
+.board-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project-card {
+  display: block;
+}
+
+// Filtered-out cards keep their outer div in grid/flex flow (hiding only
+// its content, collapsing it to ~0 height) rather than display:none on
+// the card itself — same reasoning as .board-column above: a raw
+// .project-card is a direct grid item inside .finished-grid, so removing
+// it from flow entirely would let auto-fit collapse its track and
+// stretch the remaining cards to fill the row.
+.project-card.is-hidden > * {
+  display: none;
+}
+
+.project-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-card-thumb {
+  // Natural aspect ratio, not a forced crop box — thumbnails are already
+  // deliberately cropped/simplified per-figure (see scripts/generate_thumbnails.py),
+  // so re-cropping here with object-fit:cover would chop off chosen content.
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  background: #f3f1ec;
+}
+
+.project-card-title {
+  font-size: 0.98rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem;
+  line-height: 1.3;
+}
+
+.project-card-desc {
+  font-size: 0.86rem;
+  color: #4a4a4a;
+  margin: 0 0 0.6rem;
+  line-height: 1.4;
+}
+
+.project-card:hover .project-card-title {
+  text-decoration: underline;
+}
+
+// ---- Paper link (quiet, same treatment as .board-link-block a below) ----
+// Inline at the end of the description text, not a separate block — see
+// scripts/build_board.py's card_html.
+.project-card-paper-link {
+  font-size: 0.8rem;
+  color: #897248;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.project-card-paper-link:hover {
+  text-decoration: underline;
+}
+
+// ---- Tag filter bar ----
+.filter-bar-label {
+  max-width: 1400px;
+  margin: 0.5rem auto 0;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #8a8a8a;
+}
+
+.board-filter-bar {
+  max-width: 1400px;
+  margin: 0.5rem auto 0;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.filter-tag {
+  font: inherit;
+  font-size: 0.78rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid #e2ddd3;
+  background: #fff;
+  color: #6b6b6b;
+  cursor: pointer;
+}
+
+.filter-tag:hover {
+  border-color: #897248;
+  color: #897248;
+}
+
+.filter-tag.is-active {
+  background: #897248;
+  border-color: #897248;
+  color: #fff;
+}
+
+// ---- Quiet link block (fills the shortest column's foot — see
+// scripts/build_board.py, which computes which column is shortest on
+// every render). Deliberately NOT a .project-card: no thumbnail, a
+// border instead of a hover-underline, so it can't be mistaken for a
+// paper link.
+.board-link-block {
+  margin-top: 1.5rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid #e2ddd3;
+  border-radius: 6px;
+  background: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.board-link-block-label {
+  margin: 0;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #8a8a8a;
+}
+
+.board-link-block a {
+  font-size: 0.88rem;
+  color: #897248;
+  text-decoration: none;
+}
+
+.board-link-block a:hover {
+  text-decoration: underline;
+}
+
+// ---- Finished projects (full width, simple list — no columns) ----
+.finished-section {
+  max-width: 1400px;
+  margin: 3.5rem auto 0;
+  padding: 1.5rem 2rem 2rem;
+  box-sizing: border-box;
+  border-top: 1px solid #e2ddd3;
+}
+
+.finished-title {
+  font-size: 1.1rem;
+  margin: 0 0 1.25rem;
+}
+
+// Same card markup/grid as the main board (scripts/build_board.py's
+// card_html) — a flat 3-across grid, no sub-category columns, since this
+// section deliberately doesn't split "other research" any further.
+.finished-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2.5rem;
+  align-items: start;
+}
+
+// ---- Responsive ----
+@media (max-width: 520px) {
+  .bio-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+}
