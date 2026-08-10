@@ -7,60 +7,11 @@
     "text": "Note\n\n\n\nPlaceholder. This page is generated from a Google Scholar BibTeX export by scripts/bib_to_qmd.py in Phase 4 — supply the .bib file and it will be regenerated automatically.\n\n\nIn the meantime, see the Google Scholar profile."
   },
   {
-    "objectID": "projects/seshat-global-history-benchmark.html",
-    "href": "projects/seshat-global-history-benchmark.html",
-    "title": "Seshat Global History Benchmark",
-    "section": "",
-    "text": "Global History Benchmark. We build a benchmark using the Seshat Databank—an interdisciplinary effort , where over a decade of work went into interpreting books and articles to compile facts about 600+ historical societies. We tested LLMs on 36,000+ questions derived from the databank. In a four-choice format, LLMs achieved balanced accuracy between 33.6% (LLama-3.1-8B) and 46% (GPT-4-Turbo)—better than random guessing (25%) but far from expert comprehension. LLMs perform better on earlier historical periods. Regionally, performance is better for the Americas and lowers in Oceania and Sub-Saharan Africa for the more advanced models. Read more\nSeshat-derived history questions also contributed to Humanity’s Last Exam, published in Nature."
-  },
-  {
-    "objectID": "projects/misinformation-resharing-vlms.html",
-    "href": "projects/misinformation-resharing-vlms.html",
-    "title": "Misinformation Resharing in VLMs",
-    "section": "",
-    "text": "Misinformation spreading. We study vision-Language Models’ (VLMs) propensity to reshare news content. Our key findings are that: Image presence increases resharing rates by 4.8% for true news but a much larger 15.0% for false news. Dark Triad personality traits (narcissism, Machiavellianism, psychopathy) amplify resharing of false news. Republican-aligned profiles show reduced sensitivity to veracity, sharing both true and false news at similar rates. Read more"
-  },
-  {
-    "objectID": "projects/llm-stackoverflow-digital-public-goods.html",
-    "href": "projects/llm-stackoverflow-digital-public-goods.html",
-    "title": "LLMs and Digital Public Goods",
-    "section": "",
-    "text": "Impact on Digital Public Goods. We study the impact of Large Language Models (LLMs) on digital public goods, focusing on Stack Overflow. We estimate a 16% decrease in weekly posts on Stack Overflow after the release of ChatGPT, escalating to 25% by June. This widespread LLM adoption might diminish public web exchanges, thereby constraining the open data available for future learning. Read more"
-  },
-  {
-    "objectID": "projects/labour-market-network-model.html",
-    "href": "projects/labour-market-network-model.html",
-    "title": "A Network Model of the Labour Market",
-    "section": "",
-    "text": "A network model of the labour market. We develop a data-driven network model to study the impact of automation on employment. We find that the network structure plays an important role in determining unemployment levels, with occupations in particular areas of the network having very few job transition. Read more"
-  },
-  {
-    "objectID": "projects/financial-contagion-multiplex-networks.html",
-    "href": "projects/financial-contagion-multiplex-networks.html",
-    "title": "Multilayer Networks and Financial Contagion",
-    "section": "",
-    "text": "We study interconnectedness of the global financial system and its susceptibility to shocks. We study multiple channels of financial contagion using a multilayer network approach.\n\nReferences\n\nKorniyenko, Yevgeniya, et al. “Evolution of the global financial network and contagion: A new approach.” International Monetary Fund, 2018. Read here\ndel Rio-chanona, R. Maria, et al. “The Multiplex Nature of Global Financial Contagions” Applied Network Science, (2020). Read here"
-  },
-  {
-    "objectID": "projects/chatgpt-freelancer-skills-demand.html",
-    "href": "projects/chatgpt-freelancer-skills-demand.html",
-    "title": "ChatGPT and Demand for Freelancer Skills",
-    "section": "",
-    "text": "ChatGPT changed demand for skills. We study how the introduction of ChatGPT changed demand for freelancers in substitutable and complementary skills. Demand for substitutable skills, such as writing and translation, decreased by 20-50%. Within complementary skill clusters, the results are mixed: demand for machine learning programming grew by 24%, and demand for AI-powered chatbot development nearly tripled, while demand for novice workers declined in general. Read more"
-  },
-  {
-    "objectID": "projects/ai-jobs-review.html",
-    "href": "projects/ai-jobs-review.html",
-    "title": "AI and Jobs: A Review",
-    "section": "",
-    "text": "AI and jobs: theory, estimates, and evidence. We review research on generative AI’s labour-market effects across theory, occupational exposure measures, and empirical evidence from experiments and digital platforms. Productivity gains are sizable but context-dependent — 20-60% in controlled experiments, 15-30% in field settings — and effects concentrate in high-wage occupations. Evidence on employment is mixed: novice workers gain more on simple tasks, while platform data shows substitution in writing and translation work. We flag key gaps: most experiments test simple tasks on a narrow set of models, and adoption dynamics (whether exposure means substitution or productivity gains) remain understudied. Read more"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Maria del Rio-Chanona",
     "section": "",
-    "text": "I am an Assistant Professor at University College London’s Computer Science department. I was JSMF Fellow at the Complexity Science Hub and the Growth Lab at the Harvard Kennedy School. I did my PhD in Mathematics at the Institute for New Economic Thinking at the Oxford Martin School, University of Oxford.\nMy research draws from Machine Learning (ML), Large Language Models (LLMs), Networks, and Agent-Based Modelling (ABMs) to study the economic impacts of the net-zero transition, the Covid-19 pandemic, and (Gen)AI.\nI don’t currently have any funded PhD studentships available. If that changes, I’ll announce it here.\nm [dot] delriochanona [at] ucl.ac.uk\nLinkedIn · Bluesky · Google Scholar"
+    "text": "I am an Assistant Professor at University College London’s Computer Science department, a Research Scientist at Google DeepMind, and a visiting fellow at the Growth Lab at the Harvard Kennedy School. I was JSMF Fellow at the Complexity Science Hub. I did my PhD in Mathematics at the Institute for New Economic Thinking at the Oxford Martin School, University of Oxford.\nMy research draws from Machine Learning (ML), Large Language Models (LLMs), Networks, and Agent-Based Modelling (ABMs) to study the economic impacts of the net-zero transition, the Covid-19 pandemic, and (Gen)AI.\nI don’t currently have any funded PhD studentships available. If that changes, I’ll announce it here.\nm [dot] delriochanona [at] ucl.ac.uk\nLinkedIn · Bluesky"
   },
   {
     "objectID": "index.html#research-highlights",
@@ -131,54 +82,5 @@
     "title": "Podcasts & Talks",
     "section": "Talks & Workshops",
     "text": "Talks & Workshops\n\nSelected recorded talks\n\nSupply and demand shocks of the Covid-19 pandemic. Oxford Martin School, The economics of the COVID-19 pandemic lecture series, 16 September 2020, Watch here\nOccupational mobility and automation. MPI Centre for Humans and Machines seminar series, November 2020, Watch here\nThe multiplex nature of global financial contagion and the economy. NetSci Satellite MixNext2020, 9 December 2020, Watch here\n\n\n\nUpcoming and previous talks\n\nSep 8–10, 2025 – Data-driven and Economic (AI) Agent-Based Models, Keynote lecture, 3rd DISEI-Workshop on Heterogeneity, Evolution and Networks in Economics (University of Florence – DISEI), Florence, Italy.\nJul 9, 2025 – Can generative AI agents behave like humans? Evidence from market experiments, Keynote lecture, ECO²STAT 2025 (StatPhys29 Satellite), Cagliari, Italy.\nJun 18–20, 2025 – PSE–CEPR Policy Forum (participant; on-site interview “How good are LLMs at doing our jobs?” recorded at the Forum, released Jul 9, 2025), Paris School of Economics & CEPR, Paris, France.\nJun 16, 2025 – AI’s Impact on Social and Economic Distributions (ACtioN roundtable; participant), Santa Fe Institute & Google DeepMind, London, UK\nJun 12, 2025 – Systematic Evaluation of AI’s Capabilities in Finance and Business Occupations, CEPR/CSH/OeNB workshop “Preparing for the AI Revolution” (Austrian Central Bank), Vienna, Austria\nJun 9, 2025 – (Invited talk) 2nd British NetSci Symposium (British Network Science Society, hosted at UCL), London, UK.\nAug 21, 2024 – Large Language Models: Impact on Digital Public Goods and Online Labor Markets, CSH Talk (Complexity Science Hub), Vienna, Austria\nJul 11–12, 2024 – PhD short course (WEHIA 2024), Workshop on Economic Science with Heterogeneous Interacting Agents (University of Bamberg), Bamberg, Germany.\nJul 8, 2024. Topological Data Analysis (TDA) for Complex Systems, Mathematics & Data Science Colloquium (TU Chemnitz), Chemnitz, Germany.\nMay 31, 2024. Networks for economics and society Invited lecture, ‘Complex Networks: Theory, Methods, and Applications’ (Lake Como School of Advanced Studies), Como, Italy\nApr 3, 2024 – Occupational and Regional Employment Dynamics and Bottlenecks in Net-Zero Transition Scenarios, CSH Talk (Complexity Science Hub), Vienna, Austria\nFeb 20, 2024. Occupational and regional employment dynamics and bottlenecks in net-zero transition scenarios, POID/PRINZ Research Seminar (LSE), London, UK\nJune 8, 2023. Economic Fitness and Complexity Summer School.\nJune 5, 2023. Panel at the LSE Commission on Pandemic Governance and Inequalities. Video here.\nMay 26, 2023. ANET Lab Seminar series.\nJanuary 31, 2023. On Agent-Based Modelling. Winter Workshop on Complex Systems\nJanuary 15-19, 2023. Division of labor and social cohesion. Complexity Science Hub Winter School.\nOctober 31, 2022. The impact of automation and the Covid-19 pandemic on the labor market and the causes of the Great Resignation. Harvard Growth Lab seminar\nSeptember 29, 2022. Diversifying AI: How to achieve diversity?, Hosting panel discussion at RIIAA LatAm.\nSeptember 28, 2022. A non equilibrium labor market model of occupational mobility and labor transformations, DDEABM workshop.\nSeptember 22, 2022. How Can Complexity Economics Give More Insight Into Political Economy, Santa Fe Institute ACtioN Briefing.\nAugust 12, 2022. Complexity economics – a non-equilibrium approach to policy, Government Economics Network in New Zealand annual conference (GEN 2022)\nAugust 10, 2022. Consequences of heterogeneity in labor markets and firms outcomes, Santa Fe Institute seminar.\nJuly 12, 2022. Agent Based Modelling: Applications to inequality, Complexity GAINs summer school.\nApril 4, 2022. Workshop on Supply Chain Networks and Input-Output Modeling, World Bank. Joint talk with Anton Pichler\nFebruary 16, 2022. Data-Driven and Non-Equilibrium Network Models of the Economy: Applications to the COVID-19 pandemic and automation in the labour market, CEU seminar.\nJanuary 11, 2022. Labour market transitions: Findings and research directions from a novel dataset, ILO webinar.\nDecember 13 2021. Complexity Economics, Complex systems course at IIMAS, UNAM.\nJuly 15, 2021. How AI can drive the skills revolution, LearnTech meet up.\nJune 30, 2021. NetSci 2021 Satellite Complex Networks in Economics and Innovation\nFebruary 19, 2021. Occupational mobility and automation. Simulation-based Science colloquium.\nDecember 17, 2020. The economic impact of the COVID-19 pandemic: A non-equilibrium network model. UBICS Complex Systems and COVID-19 seminar series.\nDecember 9, 2020. The multiplex nature of global financial contagion and the economy. NetSci Satellite MixNext2020. Watch here\nNovember 17, 2020. Occupational mobility and automation. MPI Centre for Humans and Machines seminar series, Watch here\nOctober 29, 2020. El impacto económico de COVID-19 en industrias y profesiones, C3 UNAM lunch complejo, Watch here\nSeptember 16, 2020. Oxford Martin School, The economics of the COVID-19 pandemic lecture series, Watch live or later\nSeptember 21, 2020, Lightning talks, NetSci 2020.\nJuly 18, 2020. IC2S2 Conference, Conference video link here\nJuly 2, 2020. INET Young Scholar, with Anton Pichler, Watch talk here\nMay 12, 2020. Geneva Macro Labs Webinar, Watch webinar here\nMay 11, 2020. Harvard Growth Lab Seminar.\nApril 22, 2020. Financial Computing Seminar at UCL, Watch talk here\nNovember 2019. PastNet, Complexity Science and Past Complex Systems,\nNovember 2019. New Complexity Economics, ACtioN meeting hosted by Santa Fe Institute, Santa Fe New Mexico.\nOctober 2019. Data Science Meets the Economics of Science, Technology and Innovation, Workshop organized by CAGE-NESTA.\n\nAI, Computational Social Science, and the Future of Work Topical Meeting. ACtioN meeting hosted by Santa Fe Institute and Willis Towers Watson, London .\n\n\nShifting Paradigms – Economics in the 21st Century. Aberdeen Political and Economic Group, Aberdeen 2017."
-  },
-  {
-    "objectID": "projects/brazil-skill-mismatch.html",
-    "href": "projects/brazil-skill-mismatch.html",
-    "title": "Skill Mismatch and Development in Brazil",
-    "section": "",
-    "text": "Skill mismatch and sustainable development in Brazil. We develop a labor market model of occupational and regional mobility to study development scenarios for Brazil. We examine emission-intensive scenarios (agriculture due to Amazon deforestation) versus less intensive ones (manufacturing). We find that agricultural scenarios hit workers harder due to limited occupational and geographic mobility, potentially worsening inequality without targeted policies. Read more"
-  },
-  {
-    "objectID": "projects/covid19-economic-impact.html",
-    "href": "projects/covid19-economic-impact.html",
-    "title": "COVID-19 Economic Impact",
-    "section": "",
-    "text": "We integrated an economic and an epidemic agent-based models to assess the health-economy trade-off in New York City.\n\nThe economic model we developed predicted the economic impact of the pandemic on UK economy well at both the aggregate and sectoral level.\n\nWe provide quantitative predictions of first order COVID-19 supply and demand shocks for the US economy. Compared to the pre-COVID period, these shocks threaten around 20% of the US economy’s GDP and jeopardize 23% of jobs.\n\nReferences\n\nPangallo, Marco, et al. “The unequal effects of the health–economy trade-off during the COVID-19 pandemic.” Nature Human Behaviour (2023). Read here\nPichler, Anton, et al. “Forecasting the propagation of pandemic shocks with a dynamic input-output model” Journal of Economic Dynamics and Control (2022). Read here\ndel Rio-Chanona, R. Maria, et al. “Supply and demand shocks in the COVID-19 pandemic: An industry and occupation perspective.” Oxford Review of Economic Policy (2020). Read here"
-  },
-  {
-    "objectID": "projects/great-resignation.html",
-    "href": "projects/great-resignation.html",
-    "title": "The Great Resignation",
-    "section": "",
-    "text": "We use text analysis to investigate the changes in work- and quit-related posts between 2018 and 2021 on Reddit. We find that mental health and work-related distress topics disproportionally increased among quit-related posts since the onset of the pandemic, likely contributing to the Great Resignation.\n\nReferences\n\ndel Rio-Chanona, R. Maria, et al. “Mental health concerns precede quits: shifts in the work discourse during the Covid-19 pandemic and great resignation” EPJ Data Science (2023). Read here"
-  },
-  {
-    "objectID": "projects/llm-agents-financial-markets.html",
-    "href": "projects/llm-agents-financial-markets.html",
-    "title": "LLM Agents in Financial Markets",
-    "section": "",
-    "text": "Economic and Financial markets. 📈 💸 We shows that LLMs agents can, to some extent, mimic human market behaviour. LLM agents created bubbles in financial markets and displayed bounded rationality much like humans do, but with notably less diversity in their forecasts. Read more"
-  },
-  {
-    "objectID": "projects/machine-spirits.html",
-    "href": "projects/machine-spirits.html",
-    "title": "Machine Spirits: LLM Agents in Asset Markets",
-    "section": "",
-    "text": "Machine spirits, not animal spirits. We test 15 LLMs in a simulated asset market to see whether they trade like rational-expectations models, like humans, or neither. None do: LLMs sit on a spectrum between stable coordination on fundamental value and human-like speculative bubbles, and even the most advanced models fail to consistently stabilize prices. In mixed markets, stronger models adapt their forecasts to exploit weaker counterparts — profitable for them, but a source of extra volatility for the market as a whole. Read more"
-  },
-  {
-    "objectID": "projects/self-building-benchmarks.html",
-    "href": "projects/self-building-benchmarks.html",
-    "title": "Self-Building Benchmarks",
-    "section": "",
-    "text": "Work in progress. LLMs are used to automatically generate and evaluate practical work exams for tasks across Finance & Business Operations, Management, and Computer & Mathematics occupations, extending the “LLM-as-a-judge” paradigm to occupational task assessment. Restricting to text-only tasks needing no external tools, only 7% of tasks in these occupations turned out to be testable this way. Across 13 models tested, leading models score a median of 65-79% even on these basic tasks, struggling most with data manipulation and financial calculations — but models released in 2025 averaged 66%, up from 40.5% in 2024. Validation and extending to tool-using tasks are ongoing. Read more"
-  },
-  {
-    "objectID": "projects/us-decarbonisation-employment.html",
-    "href": "projects/us-decarbonisation-employment.html",
-    "title": "US Employment Under Rapid Decarbonisation",
-    "section": "",
-    "text": "****US Employment dynamics under rapid decarbonisation**** We analyze the employment dynamics of a fast transition scenario for the US electricity sector that reaches 95% decarbonization by 2035. We find three distinct labor market phases during the transition: scale-up, scale-down and a long-term steady state. During the scale-up phase, for every job lost in a given industry, twelve new jobs are created elsewhere. But only a few occupations experience a consistent increase in demand throughout the transition. Read more"
   }
 ]
