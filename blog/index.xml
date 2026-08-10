@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Maria del Rio-Chanona</title>
+<link>https://mariadelriochanona.info/blog/</link>
+<atom:link href="https://mariadelriochanona.info/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Complexity Economics researcher using Machine Learning, Networks, and Agent-Based Models to study the impact of AI and the net-zero transition on employment</description>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Mon, 27 Jan 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>No Ghosting: How an Online School Fling led to a study on the Great Resignation</title>
+  <link>https://mariadelriochanona.info/blog/posts/2025-01-27-no-ghosting-great-resignation.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Have you ever gone to a summer school, kicked-off a research project with other students, and actually published your findings? It’s quite a rare achievement. Often, once the in-person buzz dims and the final goodbyes are said, projects tend to fizzle out and participants end-up ghosting each other as excitement fades. But for me, this time was different. I matched with a team and we didn’t just keep the conversation going; we published our study on the Great Resignation — the highest spike in U.S. job quits in three decades. And the most astonishing part? The summer school was completely online.</p>
+<p>In 2021, I participated in the Computational Social Science Summer Institute at its London branch organized by Joshua Becker and Mike Yeomanss among others. The format was a week of online (flipped classroom) lectures followed by a week dedicated to project work. I found myself in an interdisciplinary team with psychologists, linguists, sociologists and mathematicians. Our research project? To explore digital traces of work and the impact of unemployment on mental health, using data from Reddit.</p>
+<p>I admit my main motivation for continuing to meet with the team online was that it was fun! With the UK still under strict lockdown measures, these lively online gatherings were a highlight. However, as news of record-high job quits in the US began to surface, we realized that our Reddit data on work discourse was great for understanding the reasons behind the Great Resignation. Reddit mentions of quits and fires showed the same trend in 2020 and beginning of 2021 than the US labor market data.</p>
+<p><img src="https://mariadelriochanona.info/images/blog/no-ghosting-fig1-labor-market-reddit.png" class="img-fluid" alt="US quit and layoff rates from 2000 to 2021"> <img src="https://mariadelriochanona.info/images/blog/no-ghosting-fig1b-labor-market-reddit.png" class="img-fluid" alt="Share of quit- and fire-related Reddit posts from 2018 to 2021"></p>
+<p><strong>Figure 1: US labor market and Reddit.</strong> (A) The U.S. quit and layoff rates from December 2000 to December 2021. Recession periods are marked with grey shaded areas. The top right corner zooms into the 2018-2020 time series for easier comparison with the Reddit time series. (B) The share of quit- and fire- related posts from 2018 to 2021. In both panels the dashed vertical line corresponds to March 2020, the orange shaded area to the Great Resignation period.</p>
+<p>Using a topic model we found the work discourse shifted during the pandemic and the Great Resignation. We observed an uptick in dialogues about working from home, remote jobs, and mental health, contrasted by a decrease in commuting discussions. But was it these mental health concerns driving the quits? To answer this, we needed a more detailed econometric analysis. It also posed the perfect opportunity to see if our online team chemistry could indeed translate into an effective in-person collaboration and organize a workshop in Vienna.</p>
+<p><img src="https://mariadelriochanona.info/images/blog/no-ghosting-fig2-topic-shifts.png" class="img-fluid" alt="Shifts in overall topic prevalence regression coefficients"></p>
+<p><strong>Figure 2: Shifts in overall topic prevalence.</strong> This figure shows the time coefficient of the regression in Eq. (1). Blue bars indicate a positive coefficient with a p-value below 0.05, while green bars indicate a negative coefficient with a p-value below 0.05. In grey, three relevant topics that do not present a significant change (p-value above 0.05) are added. Topics with a star at the end correspond to multi-topics, and the name may be shortened to a single topic.</p>
+<p>Meeting the research team in Vienna for the first time felt like a successful first Tinder date – some surprises about each other’s heights, but a far better connection in person than online. This gathering wasn’t just about finally putting faces to names. Organized with support from the Complexity Science Hub, in the workshop we received very useful feedback in the workshop, and also caught the interest of Ljubica Nedelkoska – an experienced economist from Harvard and CSH.</p>
+<p>We met in person in Vienna, in a workshop on the Great Resignation we organized and got funding from the Complexity Science Hub. Meeting in Vienna for the first time felt like a successful first Tinder date – some surprises about each other’s heights, but a far better connection in person than online. We also received very useful feedback in the workshop, and also caught the interest of Ljubica Nedelkoska – an experienced economist from Harvard and CSH.</p>
+<p>Ljubica joined our team and with her help we conducted a difference-in-differences analysis between groups discussing quitting and control groups. We discovered a significant increase in mental health concerns among those talking about quitting post-pandemic. The relationship between mental health concerns and quitting remained relatively constant. This suggests that the pandemic did not change the nature of this relationship but rather increased the prevalence of mental health and work-related distress, leading to more quits</p>
+<p><img src="https://mariadelriochanona.info/images/blog/no-ghosting-fig3-diff-in-diff.png" class="img-fluid" alt="Difference-in-differences analysis for selected topics"></p>
+<p><strong>Figure 3: Difference-in-Differences analysis for selected topics.</strong> Relative changes in prevalence in selected topics among quit-related posts. Positive values indicate an increase in prevalence and negative values a decrease. The dashed grey line marks the onset of the pandemic (March 2020), while the shaded area represents the period of the Great Resignation (2021).</p>
+<p>Reflecting on this journey, it’s clear why this was the only remote school project that led to a published paper. While in-person chemistry is hard to predict when transitioning to remote collaboration, starting remotely and finding that chemistry can lead to a lasting and productive partnership.</p>
+<p><strong>Update!</strong> Together with my co-first-author Alejandro, we are organising SICSS-London 2025!</p>
+
+
+
+ ]]></description>
+  <guid>https://mariadelriochanona.info/blog/posts/2025-01-27-no-ghosting-great-resignation.html</guid>
+  <pubDate>Mon, 27 Jan 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://mariadelriochanona.info/images/blog/no-ghosting-fig1-labor-market-reddit.png" medium="image" type="image/png" height="80" width="144"/>
+</item>
+<item>
+  <title>Science, a collective game</title>
+  <link>https://mariadelriochanona.info/blog/posts/2022-06-28-science-a-collective-game.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I was at SFI’s Complexity Interactive when I heard Eric Kaplan tell a <a href="https://ericlinuskaplan.wordpress.com/2014/07/30/the-most-important-question/">story</a> about a person searching for the most important question. I couldn’t help but wonder… <em>What would a story about a collective search for the most important questions look like?</em> And <em>Is that what science does?</em> I’ll try to answer these questions in this blog post and discuss it’s implications, but first, let me give a short overview of the story Eric told</p>
+<p><em>The Buddha, who was incredibly wise, was going on a world tour, giving people a chance to ask him one question, any question. One person gets really worried and thinks all day and night about which question to ask. They don’t want to blow up this incredible opportunity to get the answer to one question! It’s the end of the night, and finally, the person asks:</em></p>
+<p><em>“Oh Buddha! What is the single best question for me to ask you and what is the answer to it?”</em></p>
+<p><em>And the Buddha says</em></p>
+<p><em>“That. That is the single best question for you to ask me and that is the answer.”</em></p>
+<p>Eric Kaplan then discussed that we cannot acquire instruction from others but only provocation. Provocation to find our most important question. In his words,</p>
+<p><img src="https://mariadelriochanona.info/images/blog-science-collective-game-photo-umit-bulut.jpg" class="img-fluid" alt="Photo by Ümit Bulut on Unsplash"></p>
+<p>Photo by <a href="https://unsplash.com/@umit?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ümit Bulut</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+<p>“<em>Who you are — what bothers you, what your family was like, what happened to you that you hated, what happened to you that you love, the people you allow to matter to you — is what made you ask the question.</em></p>
+<p><em>And since who you are is what made the question – when you answer them they teach you who you are.”</em></p>
+<p>After hearing this talk, I wondered, how this story would look like for a <em>collective</em>? What are the questions whose answers many people would like to know? How does an individual search compare to a collective search for important questions? Let’s try and map this out with thought experiment.</p>
+<p>Imagine you are about to play a game where you can get the answer to any question. Yes, any question. Questions ranging from What will I have for breakfast tomorrow? To what’s the origin of the universe? And how did life emerge? Before playing, though, you have to make a choice. You have to decide between getting the answer to one and only <em>one</em> question of your choosing or getting the answer to <em>five</em> questions that were selected democratically by you and the other four people.</p>
+<p>Which version of the game would you like to play? (see box if you’d like a more detailed description of the versions)</p>
+<p>If you chose the collective version, I think you are interested in science.</p>
+<p>Why? You preferred having the answer to five questions rather than one. These five questions are likely to be general interest questions; after all, they were chosen collectively by five people rather than one. And what is science if not looking for answers to general interest questions? The fact that you took the risk of a bargaining game to obtain more answers rather than settling with one question suggests that you have a natural curiosity.</p>
+<p>Of course, other factors unrelated to science may have gone into your decision process. Perhaps you are risk-averse and would rather have the answer to one question you are interested in rather than engaging in a social bargaining process that may result in receiving answers to questions that are out of your interest. Perhaps, you generally dislike social bargaining processes and would rather avoid a potentially long discussion with people who may not share your interests. On the contrary, maybe you enjoy social dynamics so much that you chose the collective version of the game without thinking about the end result. Considering different collective game variants might help us better understand your decision process.</p>
+<section id="a-more-detailed-description-of-the-two-versions-of-the-game" class="level5">
+<h5 class="anchored" data-anchor-id="a-more-detailed-description-of-the-two-versions-of-the-game">A more detailed description of the two versions of the game</h5>
+<p>You play the game only once, regardless of which version you choose. In the individual version, you ask one question, get the answer and finish the game. In the collective version, you are randomly grouped with four people. These people are randomly drawn from the adult world population and also chose to play the collective version of the game. Once you are in your group, the following steps happen sequentially.</p>
+<ol type="1">
+<li>You discuss with the other group members which questions to ask.</li>
+<li>Every member postulates one question (any question).</li>
+<li>After all questions have been postulated, the group members vote yes/no for each question.</li>
+<li>After all votes for all questions have been written, the votes are publicly revealed. That is, votes are cast at the same time, and you can know who voted yes/no for each question.</li>
+<li>The set of questions postulated passes if all the questions received a majority of approving votes (3 or more). If the set of questions passes, all group members receive the answers to all questions. If the set of questions does not pass, the group goes back to step 1.</li>
+</ol>
+<p>Would your decision change under different variants of the collective game? Define the collective game for any <em>N &gt; 1</em> players that democratically choose to ask <em>N/a</em> questions, with <em>a</em> greater or equal to <em>1</em>. The payoff (questions answered) grows with <em>N</em> and decreases with <em>a</em>. As <em>N</em> increases you get more answers, but your voting power (<em>1/N</em>) also decreases. This means that as <em>N</em> grows, you may be less likely to get answers to questions you are interested in, particularly if <em>a &gt; 1</em>. With how many people would you like to play the game? For which values of <em>a</em> would you be willing to play the collective game?</p>
+<p>Would your decision change if the people you played within the collective game were sampled differently? For example, what if you only played the game with people with a bachelor’s degree?</p>
+<p>What if you were guaranteed to play the game with a diverse group of people (i.e., from different countries, education levels, races, gender, age, sexual orientations, etc.). What if you played the game with the best experts in the scientific field you are most interested in? Perhaps then the process of deciding the set of questions would be similar to a collaborative grant writing proposal where you aim to answer the top questions in your field.</p>
+<p>I’d like to think that research is done through a somewhat similar process to this latter version of the game. Experts in a research field discuss what questions are important to answer through direct discussion, conferences, article citations, or peer review processes. Of course, this idealizes how science works. There are many drawbacks and criticisms to the grant writing and peer review processes, not to mention the big problem of lack of diversity in academia.</p>
+<p>Nonetheless, knowledge sharing is a key point in this comparison between the collective game and science research. In Paul Romer’s <a href="https://blogs.scientificamerican.com/observations/the-rise-of-knowledge-economics/">framework</a>, ideas and knowledge are non-rival goods that can be shared infinitely without depletion. In the collective game answers are shared without cost. Although science communication has a cost, it still holds that sharing scientific discoveries does not deplete the knowledge. The trade-off between the individual and collective game is that for the questions to be approved by the group, they will likely have to be of everyone’s interest and not just one’s interest. Similarly, science funding calls usually require researchers to justify the benefit for the society the proposed research will have.</p>
+<p>But, what makes us decide what the most important questions are? Recall Eric’s words on what drives one’s most important question</p>
+<p>“<em>Who you are — what bothers you, what your family was like, what happened to you that you hated, what happened to you that you love, the people you allow to matter to you — is what made you ask the question.”</em></p>
+<p>Perhaps the most important questions are the ones that help us answer, who we are, what bothers us, what happened to us that we hated, and how can we improve the quality of life for the people that matter to us?</p>
+<p>This underscores the importance of diversity in science. We usually raise questions that relate to our life experiences and knowledge. Researchers from minority groups can bring to light important questions that were previously ignored. Perhaps this is one of the reasons why research students from diverse backgrounds and minority groups innovate at higher rate than majority <a href="https://www.pnas.org/doi/abs/10.1073/pnas.1915378117">students</a>. As long as we don’t have a diverse group of scientists, we are likely to keep ignoring questions relevant to many people around the world.</p>
+<p><img src="https://mariadelriochanona.info/images/blog-science-collective-game-photo-shane-rounce.jpg" class="img-fluid" alt="Photo by Shane Rounce on Unsplash"></p>
+<p>Photo by <a href="https://unsplash.com/@shanerounce?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Shane Rounce</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+<p>If you are doing research, are you working on solving what you consider the most important questions? Are you working on an important question that you are most likely to answer given your expertise? The wonderful thing about science is that we share answers. In this sense, it is not crucial to work on what you consider the most important question, but just an important question where you can contribute.</p>
+<p>When an impactful event happens, such as the Covid-19 pandemic or the emergence of armed conflict, we might be tempted to drop everything and try and research these new events. Before doing so, it’s good ask ourselves if we can contribute to the research or if we will just add noise. If the latter, it does well to remind ourselves that knowledge is shared, and that our research expertise can contribute to society in other ways. As the number of people in across different science disciplines grows we all gain answers to many more questions.</p>
+<p>It does, however, not hurt to ask oneself once in a while</p>
+<p>What is my most important question? And what do I think is the most important question for our society?</p>
+</section>
+<section id="picture-credits" class="level5">
+<h5 class="anchored" data-anchor-id="picture-credits">Picture credits</h5>
+<p>Photo by <a href="https://unsplash.com/@umit?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ümit Bulut</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+<p>Photo by <a href="https://unsplash.com/@shanerounce?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Shane Rounce</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://mariadelriochanona.info/blog/posts/2022-06-28-science-a-collective-game.html</guid>
+  <pubDate>Mon, 27 Jun 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://mariadelriochanona.info/images/blog-science-collective-game-photo-umit-bulut.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
