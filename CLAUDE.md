@@ -21,13 +21,36 @@ written. Update the "Status" section as later phases land.
 - Not done yet: `publications.qmd` is a placeholder (Phase 4 needs a
   `.bib` export from Maria — don't scrape Google Scholar, it blocks
   bots); `styles.scss` is a functional first pass, not the final design
-  (Phase 5 — two options to be reviewed before finalizing); no GitHub
-  Actions workflow / Pages deploy yet (Phase 6) — **the live domain
-  (mariadelriochanona.info) is still serving the old WordPress site**;
-  nothing built in this repo has been deployed anywhere public yet, so
-  don't assume a `quarto render`/`preview` reflects what visitors see.
-  Blog nav auto-hide when there are zero posts (mentioned in the
-  original brief) is **not** implemented — see the Blog section below.
+  (Phase 5 — two options to be reviewed before finalizing). Blog nav
+  auto-hide when there are zero posts (mentioned in the original brief)
+  is **not** implemented — see the Blog section below.
+- Phase 6 (deploy) is done on the hosting side, DNS cutover pending:
+  the repo is pushed to `maria-drc/maria-drc.github.io` on GitHub
+  (deliberately **not** an account named after Maria — the
+  `<user>.github.io` fallback URL is publicly visible/discoverable, so
+  a pseudonymous account was used for that alone; the site content
+  itself is still public). `.github/workflows/publish.yml` renders with
+  Quarto and pushes `_site` to the `gh-pages` branch on every push to
+  `main` — this is the actual deploy mechanism now; don't hand-run
+  `quarto publish` unless the Action is broken. A root-level `CNAME`
+  file (containing `mariadelriochanona.info`) is committed and gets
+  copied into `_site` on every render — GitHub Pages reads that file
+  from `gh-pages` to know the custom domain; don't delete it. GitHub
+  Pages is configured to serve from `gh-pages` (not `main` — despite
+  the `*.github.io` repo-naming convention, GitHub still defaulted the
+  Pages source to `main` on repo creation; this had to be corrected via
+  the API to point at `gh-pages` instead, since that's the branch that
+  actually has built HTML). As of this writing DNS for
+  mariadelriochanona.info still points at WordPress's hosting, not
+  GitHub Pages — the domain is registered/managed through WordPress.com
+  but the site itself is no longer served from there. Once DNS is
+  switched (A records → GitHub Pages IPs + `www` CNAME →
+  `maria-drc.github.io`), the live domain will start serving this repo
+  instead. GitHub Pages also refuses to serve unverified custom domains
+  over the raw `*.github.io` URL or via `--resolve`/Host-header tricks
+  (anti-domain-takeover protection) — that's why `quarto render`/
+  `preview` locally is still the only reliable way to check a change
+  before it's live, even after this deploy setup.
 
 ## The one rule that matters most
 
