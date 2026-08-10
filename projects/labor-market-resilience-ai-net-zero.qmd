@@ -1,0 +1,12 @@
+---
+title: "Beyond Efficiency: Labor-Market Resilience in an Age of AI and Net Zero"
+category: jobs-sustainable-development
+labels: [AI and Jobs, AI and the Economy, Agent-Based Modelling, Networks, Climate Transition]
+date: 2024-12
+paper: https://www.sfipress.org/eecs-iv-24
+venue: "SFI Press (book chapter)"
+description: "Labour markets need to be studied for resilience, not just efficiency, during technological disruption — combining network analysis, agent-based modelling, and machine learning with occupational data."
+order: 3
+---
+
+**Beyond Efficiency: Labor-Market Resilience in an Age of AI and Net Zero**. With Morgan R. Frank, Penny Mealy, Esteban Moro, and Ljubica Nedelkoska. We argue that labor markets undergoing technological disruption and economic transition need to be studied for resilience rather than efficiency alone. Combining network analysis, agent-based modeling, and machine learning with detailed occupational data, we show how these methods let policymakers simulate interventions before implementing them — offering tools to strengthen labor-market resilience through both the green transition and AI-driven disruption. [Read more](https://www.sfipress.org/eecs-iv-24)

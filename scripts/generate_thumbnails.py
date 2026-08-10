@@ -34,6 +34,7 @@ CROPS = {
     "financial-contagion-multiplex-network.png": (0, 0, 1772, 1700),
     "machine-spirits-bubbles.png": None,
     "self-building-benchmarks-occupation-performance.png": None,
+    "economy-evolving-complex-system-iv-cover.png": None,
 }
 
 

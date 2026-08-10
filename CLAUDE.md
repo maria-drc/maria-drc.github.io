@@ -9,7 +9,7 @@ written. Update the "Status" section as later phases land.
 ## Status
 
 - Done: WordPress content archived to `archive/` (reference only, not
-  rendered — see below); Quarto site structure; `taxonomy.yml`; 14
+  rendered — see below); Quarto site structure; `taxonomy.yml`; 17
   projects migrated/added so far (Phase 3). Since the initial build,
   the homepage board has had substantial follow-on work: card layout
   (text above thumbnail, inline "Read the paper →" link), client-side
@@ -17,7 +17,15 @@ written. Update the "Status" section as later phases land.
   `order:` field, an "Other research" section using the same card grid
   as the main board, and a consolidated ~9-label taxonomy (down from
   ~19) — see "Homepage board" and "labels vs. category" below for how
-  these actually work.
+  these actually work. Later still: individual project pages were
+  removed entirely (cards link straight to the external paper — see
+  "The one rule that matters most" and "Card markup" below), multi-paper
+  cards (`papers:`), a compact-thumbnail flag for non-landscape images
+  (`thumbnail_compact:`), a flat re-flow layout for filtered results
+  (see "Tag filtering"), and the homepage's Publications/Google Scholar
+  links were removed (nav item, the old per-column quiet link block,
+  and the bio's Scholar link) — `publications.qmd` still exists as a
+  Phase-4 placeholder but nothing on the site links to it anymore.
 - Not done yet: `publications.qmd` is a placeholder (Phase 4 needs a
   `.bib` export from Maria — don't scrape Google Scholar, it blocks
   bots); `styles.scss` is a functional first pass, not the final design
@@ -55,9 +63,17 @@ written. Update the "Status" section as later phases land.
 ## The one rule that matters most
 
 **Projects live only in `projects/*.qmd`. Every view of a project —
-the homepage board, the finished-projects list, the project's own
-page — reads from that file. Never hand-write a project's title,
-description, or write-up into a second place.**
+the homepage board and the finished-projects ("Other research") list —
+reads from that file. Never hand-write a project's title, description,
+or tags into a second place.**
+
+Project pages are **not rendered** (`!projects/**` in `_quarto.yml`'s
+`project.render` list) — there is no third view. A card's title and
+thumbnail click straight through to the external `paper` (or the first
+entry of `papers`, for a project covering more than one — see
+Frontmatter schema and Card markup below), never to a page on this
+site. A project's qmd body (write-up, figures) is therefore inert:
+harmless to keep as your own notes, but nothing renders it anywhere.
 
 The homepage does NOT hand-code project content. `index.qmd` contains
 only the bio block and one line, `{{< include _generated/board.qmd >}}`.
@@ -81,17 +97,23 @@ run `python3 scripts/build_board.py` once by hand, then render normally.
 title: "..."
 category: llm-agent-behaviour     # exactly one slug from taxonomy.yml
 labels: [AI Agents, Benchmarks]   # one or more, all must exist in taxonomy.yml
-image: images/....jpg             # optional — full-resolution, used on the project's own page; omit entirely for a no-image card (a review/working paper with nothing to show), and also omit thumbnail below
+image: images/....jpg             # optional — kept for reference only (no page renders it); omit entirely for a no-image card (a review/working paper with nothing to show), and also omit thumbnail below
 thumbnail: images/thumbs/....jpg  # 600px wide, used on homepage cards — see below
+thumbnail_compact: true           # optional — shrink+center instead of full-card-width; use for a portrait/non-landscape thumbnail (e.g. a book cover) that would otherwise render far taller than its neighbours
 date: YYYY-MM
-paper: https://...
+paper: https://...                # click-through target for the card's title/thumbnail
+papers:                           # use INSTEAD of `paper:` when a card should link more than one distinct paper
+  - label: "shocks"                # short label, rendered as "Read the paper (shocks) →"; title/thumbnail link to this first entry
+    url: https://...
+  - label: "model"
+    url: https://...
 venue: "arXiv"                    # or journal name
 description: "One sentence, plain language, for the grid card."
 order: 1                          # optional, ascending, sorts within its category on the homepage board — omit for the default (alphabetical by filename, same as no field at all)
 ---
 
-Longer write-up as the body — the full paragraphs, the full-res figure(s),
-a "Read more"/paper link. This is the ONLY place this text lives.
+Body is not rendered anywhere — project pages don't exist (see "The one
+rule that matters most"). Keep write-up notes here only if useful to you.
 ```
 
 `scripts/build_board.py` sorts each category's cards by `order` (a project
@@ -178,26 +200,22 @@ markup, no sub-category columns) for `finished-projects` under the
 heading "Other research" — this section deliberately does NOT split
 further by category; "no particular order needed" is the default there.
 
-The script also computes, on every run, which non-finished column has
-the fewest projects, and appends a quiet link block (Publications +
-Google Scholar) to the foot of *that* column — this is deliberate, not a
-placeholder: it fills a short column with something useful instead of
-leaving dead space, and it moves on its own if project counts shift, so
-nobody has to remember to relocate it by hand. Don't hardcode which
-column it goes in.
-
 ### Card markup (`card_html()`) — no nested `<a>`s
 
 A card is a `<div class="project-card">` containing **two separate**
 `<a class="project-card-link">` elements — one wrapping just the title,
 one wrapping just the thumbnail `<img>` — plus a `<p class="project-card-desc">`
-that is *not* inside either anchor. The paper link (`Read the paper →`)
-lives inside that same `<p>`, right after the description text, so it
-reads inline. This split exists because HTML doesn't allow nesting an
-`<a>` inside another `<a>` — a single card-wide anchor wrapping
-title+desc+thumbnail would make the paper link's own `<a>` invalid and
-break click targeting. If you touch this markup, keep the two-anchor
-split; don't collapse it back into one wrapping link.
+that is *not* inside either anchor. Both anchors point at the external
+`paper` (or the first entry of `papers`) — see `load_projects()`'s
+`_href`, computed once at load time so `card_html()` doesn't repeat that
+fallback logic. The inline paper link(s) (`Read the paper →`, or one
+`Read the paper (label) →` per entry for a multi-paper card) live inside
+that same `<p>`, right after the description text, so they read inline.
+This split exists because HTML doesn't allow nesting an `<a>` inside
+another `<a>` — a single card-wide anchor wrapping title+desc+thumbnail
+would make the paper link's own `<a>` invalid and break click targeting.
+If you touch this markup, keep the two-anchor split; don't collapse it
+back into one wrapping link.
 
 A project with no `image`/`thumbnail` (e.g. a review with nothing to
 show) simply omits the thumbnail `<a>` entirely — `card_html()` checks
@@ -227,6 +245,24 @@ the actual show/hide. Two non-obvious things if you ever touch this:
   as a flat set of matches, not still grouped under a category label)
   and strips `.finished-section`'s border-top (otherwise a lone filtered
   match sits under a floating, now-unlabelled divider rule).
+
+`body.is-filtered` also swaps the grouped-by-category `.project-board`
+out for `.project-board-flat` (`build_board.py`'s `flat_board_html()`) —
+a second, plain copy of every non-finished card, all in one flat grid,
+in the same order the columns list them. This is deliberately the
+*opposite* of the anti-ballooning rule above: inside `.project-board-flat`
+only, filtered-out cards get real `display:none` (see the CSS), so
+matches actually pack tightly — first into column 1, then column 2, and
+so on — instead of leaving category-shaped gaps where a whole column's
+worth of cards got filtered out. This is why filtering exists as a
+build-time duplication rather than a JS reflow: `js/board-filter.js`
+needs no awareness of it at all — it already selects every `.project-card`
+site-wide and toggles `.is-hidden` uniformly, so the two containers'
+opposite CSS handling is enough on its own. The "Other research" grid is
+intentionally NOT included in `.project-board-flat` and keeps the
+anti-ballooning (hide-children) behavior when filtered — it's already a
+single flat grid with no per-category grouping, so the "gaps within a
+category" problem this exists to solve doesn't apply there.
 
 `index.qmd`'s board section is wrapped in `::: {.column-screen} :::` so
 it can render up to `max-width: 1400px` (see `styles.scss`) even though
@@ -285,6 +321,13 @@ aspect ratio (`width: 100%; height: auto;`). This applies everywhere
 `.project-card-thumb` is used — both the main board and the "Other
 research" grid render the exact same card markup (see Homepage board
 above), so there's only one thumbnail rule to keep correct.
+
+For a portrait/non-landscape thumbnail (e.g. a book cover) that would
+otherwise render far taller than its neighbours at full card width, set
+`thumbnail_compact: true` in that project's frontmatter instead of
+reaching for `object-fit`/cropping — it adds the `.project-card-thumb--compact`
+class (`styles.scss`), which caps the width and centers it, still at
+natural aspect ratio.
 
 ## Blog
 

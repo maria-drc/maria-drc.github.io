@@ -5,7 +5,13 @@ labels: [Covid-19, Agent-Based Modelling]
 image: images/covid-nyc-health-economy-tradeoff.png
 thumbnail: images/thumbs/covid-nyc-health-economy-tradeoff.jpg
 date: 2020-04
-paper: https://academic.oup.com/oxrep/advance-article/doi/10.1093/oxrep/graa033/5899019
+papers:
+  - label: "shocks"
+    url: https://academic.oup.com/oxrep/advance-article/doi/10.1093/oxrep/graa033/5899019
+  - label: "model"
+    url: https://www.sciencedirect.com/science/article/pii/S0165188922002317
+  - label: "health econ"
+    url: https://www.nature.com/articles/s41562-023-01747-x
 venue: "Nature Human Behaviour, JEDC, Oxford Review of Economic Policy"
 description: "A series of agent-based and input-output models quantified the sectoral, industry, and health-economy trade-offs of the COVID-19 shock in the US, UK, and NYC."
 ---

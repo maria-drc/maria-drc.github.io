@@ -95,6 +95,40 @@ body.is-filtered .finished-section {
   padding-top: 0;
 }
 
+// ---- Flat filtered view (scripts/build_board.py's flat_board_html) ----
+// While a tag filter is active, the grouped-by-category .project-board is
+// replaced by this single flat grid (same card markup, duplicated at build
+// time) instead of just hiding non-matches in place — grouping by category
+// is what causes uneven, gappy columns once most cards in one category are
+// filtered out. Swapped in/out based on the same body.is-filtered class
+// js/board-filter.js already toggles; no JS changes needed for this.
+.project-board-flat {
+  max-width: 1400px;
+  margin: 1.5rem auto 0;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  display: none;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2.5rem;
+  align-items: start;
+}
+
+body.is-filtered .project-board {
+  display: none;
+}
+
+body.is-filtered .project-board-flat {
+  display: grid;
+}
+
+// Unlike the grouped board (.project-card.is-hidden > * above), fully
+// remove filtered-out cards from flow here — reflow/resize of the
+// remaining matches into a tightly packed sequence is the whole point of
+// this view, not the bug it would be in the grouped board.
+.project-board-flat .project-card.is-hidden {
+  display: none;
+}
+
 .board-cards {
   display: flex;
   flex-direction: column;
@@ -130,6 +164,17 @@ body.is-filtered .finished-section {
   height: auto;
   border-radius: 4px;
   background: #f3f1ec;
+}
+
+// Opt-in per project (`thumbnail_compact: true` in frontmatter) for a
+// thumbnail that shouldn't stretch to the card's full width — e.g. a
+// portrait book cover, which would otherwise render far taller than every
+// other card in its column. Still natural aspect ratio, just capped and
+// centered rather than filling the card.
+.project-card-thumb--compact {
+  width: auto;
+  max-width: 55%;
+  margin: 0 auto;
 }
 
 .project-card-title {
@@ -208,40 +253,6 @@ body.is-filtered .finished-section {
   background: #897248;
   border-color: #897248;
   color: #fff;
-}
-
-// ---- Quiet link block (fills the shortest column's foot — see
-// scripts/build_board.py, which computes which column is shortest on
-// every render). Deliberately NOT a .project-card: no thumbnail, a
-// border instead of a hover-underline, so it can't be mistaken for a
-// paper link.
-.board-link-block {
-  margin-top: 1.5rem;
-  padding: 1rem 1.15rem;
-  border: 1px solid #e2ddd3;
-  border-radius: 6px;
-  background: #faf9f6;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.board-link-block-label {
-  margin: 0;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: #8a8a8a;
-}
-
-.board-link-block a {
-  font-size: 0.88rem;
-  color: #897248;
-  text-decoration: none;
-}
-
-.board-link-block a:hover {
-  text-decoration: underline;
 }
 
 // ---- Finished projects (full width, simple list — no columns) ----

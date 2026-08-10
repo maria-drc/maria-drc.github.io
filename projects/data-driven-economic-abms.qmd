@@ -1,0 +1,12 @@
+---
+title: "Data-Driven Economic Agent-Based Models"
+category: jobs-sustainable-development
+labels: [Agent-Based Modelling]
+date: 2024-12
+paper: https://arxiv.org/abs/2412.16591
+venue: "arXiv (book chapter)"
+description: "A framework for classifying data-driven agent-based models by whether agent-level quantities come from real micro-data and whether model dynamics match empirical time series."
+order: 2
+---
+
+**Data-Driven Economic Agent-Based Models**. With Marco Pangallo. Economic agent-based models are increasingly incorporating real-world data to strengthen their applicability. We propose classifying data-driven ABMs along two dimensions: whether agent-level quantities are drawn from actual micro-data, and whether model dynamics are aligned with empirical time series. We review contemporary techniques for parameter calibration, initialization, and data assimilation, together with applications that have generated research insights and informed policy decisions — intended as both a foundational framework for the field and an introductory resource. [Read more](https://arxiv.org/abs/2412.16591)

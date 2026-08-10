@@ -9,7 +9,7 @@ page-layout: full
 
 ::: {.bio-text}
 
-I am an Assistant Professor at [University College London's Computer Science department](https://www.ucl.ac.uk/computer-science/research/research-groups/financial-computing-and-analytics). I was [JSMF](https://www.jsmf.org/) Fellow at the [Complexity Science Hub](https://www.csh.ac.at/) and the Growth Lab at the [Harvard Kennedy School](https://growthlab.hks.harvard.edu). I did my PhD in Mathematics at the Institute for New Economic Thinking at the Oxford Martin School, [University of Oxford](https://www.inet.ox.ac.uk).
+I am an Assistant Professor at [University College London's Computer Science department](https://www.ucl.ac.uk/computer-science/research/research-groups/financial-computing-and-analytics), a Research Scientist at [Google DeepMind](https://deepmind.google/), and a visiting fellow at the Growth Lab at the [Harvard Kennedy School](https://growthlab.hks.harvard.edu). I was [JSMF](https://www.jsmf.org/) Fellow at the [Complexity Science Hub](https://www.csh.ac.at/). I did my PhD in Mathematics at the Institute for New Economic Thinking at the Oxford Martin School, [University of Oxford](https://www.inet.ox.ac.uk).
 
 My research draws from Machine Learning (ML), Large Language Models (LLMs), Networks, and Agent-Based Modelling (ABMs) to study the economic impacts of the net-zero transition, the Covid-19 pandemic, and (Gen)AI.
 
@@ -17,7 +17,7 @@ My research draws from Machine Learning (ML), Large Language Models (LLMs), Netw
 
 m [dot] delriochanona [at] ucl.ac.uk
 
-[LinkedIn](https://www.linkedin.com/in/r-maria-del-rio-chanona-8a61a63a/) · [Bluesky](https://bsky.app/profile/maria-drc.bsky.social) · [Google Scholar](https://scholar.google.com/citations?user=HwK5iiEAAAAJ&hl=en&oi=ao)
+[LinkedIn](https://www.linkedin.com/in/r-maria-del-rio-chanona-8a61a63a/) · [Bluesky](https://bsky.app/profile/maria-drc.bsky.social)
 
 :::
 :::

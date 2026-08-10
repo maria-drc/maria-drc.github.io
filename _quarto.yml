@@ -8,6 +8,7 @@ project:
     - "**/*.qmd"
     - "!archive/**"
     - "!_generated/**"
+    - "!projects/**"
 
 website:
   title: "Maria del Rio-Chanona"
@@ -23,8 +24,6 @@ website:
         text: Podcasts & Talks
       - href: blog/index.qmd
         text: Blog
-      - href: publications.qmd
-        text: Publications
   page-footer:
     left: "© Maria del Rio-Chanona"
     right:

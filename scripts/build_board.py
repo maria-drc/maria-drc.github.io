@@ -6,6 +6,13 @@ _quarto.yml) — never hand-edit `_generated/board.qmd`, it's a build
 artifact. To add a project to the board, add a projects/*.qmd file; to
 change section order or names, edit taxonomy.yml. Nothing here needs
 editing when either of those changes.
+
+Project pages are NOT rendered (see `!projects/**` in _quarto.yml's
+project.render list) — a project's title/thumbnail link straight to its
+external `paper` (or the first entry of `papers`, for a project with more
+than one linked paper), not to a page on this site. A project's qmd body
+(write-up, figures) is therefore inert — kept only as source material, not
+built into anything.
 """
 from html import escape
 from pathlib import Path
@@ -18,7 +25,6 @@ OUT_DIR = ROOT / "_generated"
 OUT_FILE = OUT_DIR / "board.qmd"
 
 FINISHED_SLUG = "finished-projects"
-SCHOLAR_URL = "https://scholar.google.com/citations?user=HwK5iiEAAAAJ&hl=en&oi=ao"
 
 # Cards within a category sort by this optional frontmatter field (ascending),
 # ties broken by filename (see load_projects — the list it returns is already
@@ -42,7 +48,10 @@ def load_projects():
         text = path.read_text(encoding="utf-8")
         end = text.find("\n---", 3)
         fm = yaml.safe_load(text[3:end])
-        fm["_href"] = f"/projects/{path.stem}.html"
+        # Click-through target for the title/thumbnail: the first (or only)
+        # linked paper. A project always has `paper` or `papers` — see
+        # projects/_template.qmd.
+        fm["_href"] = fm.get("papers", [{}])[0].get("url") or fm.get("paper")
         projects.append(fm)
     return projects
 
@@ -52,6 +61,17 @@ def labels_attr(p):
 
 
 def paper_link_html(p):
+    # Most projects link a single paper via `paper:`. A project covering
+    # several distinct papers (e.g. one card summarizing a body of work) can
+    # instead set `papers:` — a list of {label, url} — to render one labelled
+    # link per paper instead of a single generic one.
+    papers = p.get("papers")
+    if papers:
+        return " ".join(
+            f'<a class="project-card-paper-link" href="{escape(paper["url"])}">'
+            f'Read the paper ({escape(paper["label"])})&nbsp;&rarr;</a>'
+            for paper in papers
+        )
     if not p.get("paper"):
         return ""
     return (
@@ -68,11 +88,17 @@ def card_html(p):
     # description (plain text, not a link target) sits beside them.
     # The thumbnail <a> is omitted entirely for a project with no image
     # (image/thumbnail are both optional — see projects/_template.qmd).
+    # Both anchors point at the same external paper as the inline paper
+    # link(s) below (see load_projects's `_href`) — not at a page on this
+    # site, since project pages aren't rendered at all.
     thumb = p.get("thumbnail") or p.get("image", "")
+    thumb_class = "project-card-thumb"
+    if p.get("thumbnail_compact"):
+        thumb_class += " project-card-thumb--compact"
     thumb_html = (
         f"""
-        <a class="project-card-link" href="{p['_href']}">
-          <img class="project-card-thumb" src="/{thumb}" alt="{escape(p['title'])}" loading="lazy">
+        <a class="project-card-link" href="{escape(p['_href'])}">
+          <img class="{thumb_class}" src="/{thumb}" alt="{escape(p['title'])}" loading="lazy">
         </a>"""
         if thumb
         else ""
@@ -82,7 +108,7 @@ def card_html(p):
     desc_html = f"{desc} {link}" if link else desc
     return f"""
       <div class="project-card" data-labels="{labels_attr(p)}">
-        <a class="project-card-link" href="{p['_href']}">
+        <a class="project-card-link" href="{escape(p['_href'])}">
           <h3 class="project-card-title">{escape(p['title'])}</h3>
         </a>
         <p class="project-card-desc">{desc_html}</p>
@@ -103,13 +129,18 @@ def filter_bar_html(projects):
     </div>"""
 
 
-def link_block_html():
+def flat_board_html(visible):
+    # Shown only while a tag filter is active (see styles.scss and
+    # js/board-filter.js) instead of the grouped-by-category columns above —
+    # a single flat grid, in the same overall order the columns list them
+    # in, so that filtering never leaves category-shaped gaps: non-matches
+    # are fully removed from flow here (unlike the grouped board and the
+    # Other research grid) so remaining matches pack tightly, first into
+    # column 1, then column 2, and so on.
+    cards = "".join(card_html(p) for _, cat_projects in visible for p in cat_projects)
     return f"""
-      <div class="board-link-block">
-        <p class="board-link-block-label">More</p>
-        <a href="/publications.html">All publications &rarr;</a>
-        <a href="{SCHOLAR_URL}">Google Scholar &rarr;</a>
-      </div>"""
+    <div class="project-board-flat">{cards}
+    </div>"""
 
 
 def main():
@@ -122,28 +153,21 @@ def main():
     for cat_projects in by_category.values():
         cat_projects.sort(key=lambda p: p.get("order", DEFAULT_ORDER))
 
-    # Columns that will actually render (non-finished, non-empty). The
-    # shortest one gets a quiet link block at its foot instead of being
-    # left to dangle — recomputed on every render, so it moves on its own
-    # as project counts per category shift over time.
+    # Columns that will actually render (non-finished, non-empty).
     visible = [
         (cat, by_category[cat["slug"]])
         for cat in tax["categories"]
         if cat["slug"] != FINISHED_SLUG and by_category.get(cat["slug"])
     ]
-    shortest_slug = (
-        min(visible, key=lambda pair: len(pair[1]))[0]["slug"] if visible else None
-    )
 
     board_columns = []
     for cat, cat_projects in visible:
         cards = "".join(card_html(p) for p in cat_projects)
-        extra = link_block_html() if cat["slug"] == shortest_slug else ""
         board_columns.append(f"""
     <div class="board-column">
       <h2 class="board-column-title">{escape(cat['name'])}</h2>
       <div class="board-cards">{cards}
-      </div>{extra}
+      </div>
     </div>""")
 
     finished_cat = next(
@@ -158,6 +182,7 @@ def main():
 
 <div class="project-board">{''.join(board_columns)}
 </div>
+{flat_board_html(visible)}
 
 <section class="finished-section">
   <h2 class="finished-title">{escape(finished_name)}</h2>

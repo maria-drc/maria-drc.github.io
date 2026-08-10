@@ -1,0 +1,17 @@
+---
+title: "The Economy as an Evolving Complex System IV"
+category: jobs-sustainable-development
+labels: [AI and Jobs, AI and the Economy, Agent-Based Modelling, Climate Transition, Networks]
+image: images/economy-evolving-complex-system-iv-cover.png
+thumbnail: images/thumbs/economy-evolving-complex-system-iv-cover.jpg
+thumbnail_compact: true
+date: 2024-12
+paper: https://www.sfipress.org/books/eecs-iv
+venue: "SFI Press"
+description: "An edited volume applying complexity economics — adaptive systems, agent-based models, and networks — to labour markets, climate transition, inequality, and technological change."
+order: 1
+---
+
+**The Economy as an Evolving Complex System IV**. Co-edited with Marco Pangallo, Jenna Bednar, Eric D. Beinhocker, Jagoda Kaszowska-Mojsa, François Lafond, Penny Mealy, Anton Pichler, and J. Doyne Farmer. The volume revisits the complexity economics research program launched at the Santa Fe Institute in 1987 — treating economies as adaptive, out-of-equilibrium systems rather than as systems that settle into equilibrium — and synthesizes nearly four decades of work across seven themes: foundational theory, methodologies, macroeconomics and finance, climate and sustainability, inequality and labor, innovation and technological change, and political economy and policy. [Read more](https://www.sfipress.org/books/eecs-iv)
+
+![](/images/economy-evolving-complex-system-iv-cover.png){fig-alt="Cover of The Economy as an Evolving Complex System IV"}
