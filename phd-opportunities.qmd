@@ -1,12 +1,26 @@
 ---
-title: "PhD Opportunities"
+title: "PhD & Postdoctoral Opportunities"
+toc: true
 ---
 
 Thank you for your interest in working with me. It means a lot that you would consider it.
 
-## Funded positions
+## Fellowships
 
-I don't currently have any funded PhD positions open, but I will post here as soon as one is. You might be interested in the [Cyber-Physical Risk CDT](https://www.ucl.ac.uk/engineering/security-crime-science/study/postgraduate-research/epsrc-centre-doctoral-training-cyber-physical-risk), or others that may come along.
+If you're interested in the impact of AI on the economy and society, AI agents, complexity economics, agent-based modelling, or inequality, this may be a good fit, so do get in touch and we can talk through a proposal.
+
+A few postdoctoral research fellowships are worth knowing about if you're looking to fund an independent project: the [Leverhulme Trust Early Career Fellowship](https://www.leverhulme.ac.uk/early-career-fellowships) (deadline usually around February), the [Marie Skłodowska-Curie Postdoctoral Fellowship](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships) (deadline usually around September), and the [Branco Weiss Fellowship](https://brancoweissfellowship.org/) (deadline usually around January). I'd be glad to help a strong applicant put together a case.
+
+A couple of reasons UCL could be a good base for this:
+
+- I have a growing group of PhD students you'd interact and collaborate with, and get some supervision experience along the way.
+- UCL Computer Science hires fairly often, so it's a reasonable place to be if you're also thinking ahead to the academic job market.
+- Being in London puts you close to several frontier AI labs, both industry and other universities.
+- I'm in UCL Computer Science, in the [Computational Economics and Finance section](https://www.ucl.ac.uk/engineering/financial-computing-and-analytics), and also part of the [UCL AI Centre](https://www.ucl.ac.uk/ai-centre/), an interdisciplinary group.
+
+## Funded PhD positions
+
+I don't currently have any funded PhD positions open, but I will post here as soon as one is. There may be opportunities coming up through the [Cyber-Physical Risk CDT](https://www.ucl.ac.uk/engineering/security-crime-science/study/postgraduate-research/epsrc-centre-doctoral-training-cyber-physical-risk), though this isn't confirmed yet.
 
 If a position is live and it interests you, please send me a short email with your CV, the area you would like to work in, and anything else you would like me to know. Please note that some opportunities are only available to home-fee students.
 
