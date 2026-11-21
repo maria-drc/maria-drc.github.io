@@ -9,6 +9,16 @@
     <div class="board-column">
       <h2 class="board-column-title">LLM / AI agent behaviour</h2>
       <div class="board-cards">
+      <div class="project-card" data-labels="AI Agents|Agent-Based Modelling|Benchmarks">
+        <a class="project-card-link" href="https://arxiv.org/abs/2611.05553">
+          <h3 class="project-card-title">Decision Models as Economic Surrogates</h3>
+        </a>
+        <p class="project-card-desc">Purpose-built decision models reproduce the diversity of human economic choices better than LLMs, while running roughly 10x faster and over 100x cheaper. <a class="project-card-paper-link" href="https://arxiv.org/abs/2611.05553">Read the paper&nbsp;&rarr;</a></p>
+        
+        <a class="project-card-link" href="https://arxiv.org/abs/2611.05553">
+          <img class="project-card-thumb" src="/images/thumbs/decision-models-turing-test-kl-divergence.jpg" alt="Decision Models as Economic Surrogates" loading="lazy">
+        </a>
+      </div>
       <div class="project-card" data-labels="AI Agents|Agent-Based Modelling|Finance">
         <a class="project-card-link" href="https://arxiv.org/abs/2604.18602">
           <h3 class="project-card-title">Machine Spirits: LLM Agents in Asset Markets</h3>
@@ -71,6 +81,13 @@
         <p class="project-card-desc">A review of theory, exposure measures, and evidence on generative AI&#x27;s labour-market effects — productivity gains are sizable but context-dependent, concentrated in high-wage occupations. <a class="project-card-paper-link" href="https://arxiv.org/abs/2509.15265">Read the paper&nbsp;&rarr;</a></p>
         
       </div>
+      <div class="project-card" data-labels="AI and Jobs|AI and the Economy">
+        <a class="project-card-link" href="https://arxiv.org/abs/2609.22169">
+          <h3 class="project-card-title">Monocultural Biases in LLM Hiring</h3>
+        </a>
+        <p class="project-card-desc">Post-training makes LLMs better hiring judges on average but correlates their biases across models, raising systemic exclusion of older applicants from 5.6% to 17.3%. <a class="project-card-paper-link" href="https://arxiv.org/abs/2609.22169">Read the paper&nbsp;&rarr;</a></p>
+        
+      </div>
       <div class="project-card" data-labels="AI and Jobs">
         <a class="project-card-link" href="https://www.sciencedirect.com/science/article/pii/S0167268124004591">
           <h3 class="project-card-title">ChatGPT and Demand for Freelancer Skills</h3>
@@ -131,13 +148,13 @@
         
       </div>
       <div class="project-card" data-labels="Climate Transition|Networks|Agent-Based Modelling">
-        <a class="project-card-link" href="https://arxiv.org/abs/2503.05310">
-          <h3 class="project-card-title">Skill Mismatch and Development in Brazil</h3>
+        <a class="project-card-link" href="https://www.nature.com/articles/s41893-026-01939-z">
+          <h3 class="project-card-title">Skill and Spatial Mismatches for Sustainable Development in Brazil</h3>
         </a>
-        <p class="project-card-desc">A labour market model of occupational and regional mobility shows Brazilian workers in agriculture-heavy transition scenarios face the largest, least mobile job losses. <a class="project-card-paper-link" href="https://arxiv.org/abs/2503.05310">Read the paper&nbsp;&rarr;</a></p>
+        <p class="project-card-desc">Pathways that cut deforestation and emissions the most in Brazil disproportionately benefit high-skill workers while raising unemployment among less mobile agricultural workers. <a class="project-card-paper-link" href="https://www.nature.com/articles/s41893-026-01939-z">Read the paper&nbsp;&rarr;</a></p>
         
-        <a class="project-card-link" href="https://arxiv.org/abs/2503.05310">
-          <img class="project-card-thumb" src="/images/thumbs/brazil-skill-mismatch.jpg" alt="Skill Mismatch and Development in Brazil" loading="lazy">
+        <a class="project-card-link" href="https://www.nature.com/articles/s41893-026-01939-z">
+          <img class="project-card-thumb" src="/images/thumbs/brazil-skill-mismatch.jpg" alt="Skill and Spatial Mismatches for Sustainable Development in Brazil" loading="lazy">
         </a>
       </div>
       <div class="project-card" data-labels="Climate Transition|Agent-Based Modelling|Networks">
@@ -155,6 +172,16 @@
 </div>
 
     <div class="project-board-flat">
+      <div class="project-card" data-labels="AI Agents|Agent-Based Modelling|Benchmarks">
+        <a class="project-card-link" href="https://arxiv.org/abs/2611.05553">
+          <h3 class="project-card-title">Decision Models as Economic Surrogates</h3>
+        </a>
+        <p class="project-card-desc">Purpose-built decision models reproduce the diversity of human economic choices better than LLMs, while running roughly 10x faster and over 100x cheaper. <a class="project-card-paper-link" href="https://arxiv.org/abs/2611.05553">Read the paper&nbsp;&rarr;</a></p>
+        
+        <a class="project-card-link" href="https://arxiv.org/abs/2611.05553">
+          <img class="project-card-thumb" src="/images/thumbs/decision-models-turing-test-kl-divergence.jpg" alt="Decision Models as Economic Surrogates" loading="lazy">
+        </a>
+      </div>
       <div class="project-card" data-labels="AI Agents|Agent-Based Modelling|Finance">
         <a class="project-card-link" href="https://arxiv.org/abs/2604.18602">
           <h3 class="project-card-title">Machine Spirits: LLM Agents in Asset Markets</h3>
@@ -212,6 +239,13 @@
         <p class="project-card-desc">A review of theory, exposure measures, and evidence on generative AI&#x27;s labour-market effects — productivity gains are sizable but context-dependent, concentrated in high-wage occupations. <a class="project-card-paper-link" href="https://arxiv.org/abs/2509.15265">Read the paper&nbsp;&rarr;</a></p>
         
       </div>
+      <div class="project-card" data-labels="AI and Jobs|AI and the Economy">
+        <a class="project-card-link" href="https://arxiv.org/abs/2609.22169">
+          <h3 class="project-card-title">Monocultural Biases in LLM Hiring</h3>
+        </a>
+        <p class="project-card-desc">Post-training makes LLMs better hiring judges on average but correlates their biases across models, raising systemic exclusion of older applicants from 5.6% to 17.3%. <a class="project-card-paper-link" href="https://arxiv.org/abs/2609.22169">Read the paper&nbsp;&rarr;</a></p>
+        
+      </div>
       <div class="project-card" data-labels="AI and Jobs">
         <a class="project-card-link" href="https://www.sciencedirect.com/science/article/pii/S0167268124004591">
           <h3 class="project-card-title">ChatGPT and Demand for Freelancer Skills</h3>
@@ -267,13 +301,13 @@
         
       </div>
       <div class="project-card" data-labels="Climate Transition|Networks|Agent-Based Modelling">
-        <a class="project-card-link" href="https://arxiv.org/abs/2503.05310">
-          <h3 class="project-card-title">Skill Mismatch and Development in Brazil</h3>
+        <a class="project-card-link" href="https://www.nature.com/articles/s41893-026-01939-z">
+          <h3 class="project-card-title">Skill and Spatial Mismatches for Sustainable Development in Brazil</h3>
         </a>
-        <p class="project-card-desc">A labour market model of occupational and regional mobility shows Brazilian workers in agriculture-heavy transition scenarios face the largest, least mobile job losses. <a class="project-card-paper-link" href="https://arxiv.org/abs/2503.05310">Read the paper&nbsp;&rarr;</a></p>
+        <p class="project-card-desc">Pathways that cut deforestation and emissions the most in Brazil disproportionately benefit high-skill workers while raising unemployment among less mobile agricultural workers. <a class="project-card-paper-link" href="https://www.nature.com/articles/s41893-026-01939-z">Read the paper&nbsp;&rarr;</a></p>
         
-        <a class="project-card-link" href="https://arxiv.org/abs/2503.05310">
-          <img class="project-card-thumb" src="/images/thumbs/brazil-skill-mismatch.jpg" alt="Skill Mismatch and Development in Brazil" loading="lazy">
+        <a class="project-card-link" href="https://www.nature.com/articles/s41893-026-01939-z">
+          <img class="project-card-thumb" src="/images/thumbs/brazil-skill-mismatch.jpg" alt="Skill and Spatial Mismatches for Sustainable Development in Brazil" loading="lazy">
         </a>
       </div>
       <div class="project-card" data-labels="Climate Transition|Agent-Based Modelling|Networks">

@@ -1,0 +1,16 @@
+---
+title: "Decision Models as Economic Surrogates"
+category: llm-agent-behaviour
+labels: [AI Agents, Agent-Based Modelling, Benchmarks]
+image: images/decision-models-turing-test-kl-divergence.png
+thumbnail: images/thumbs/decision-models-turing-test-kl-divergence.jpg
+date: 2026-11
+paper: https://arxiv.org/abs/2611.05553
+venue: "arXiv"
+description: "Purpose-built decision models reproduce the diversity of human economic choices better than LLMs, while running roughly 10x faster and over 100x cheaper."
+order: 0
+---
+
+**Decision Models as Scalable Economic Surrogates that Capture Human Variation.** We introduce Decision Models (DMs) — AI tools that return a probability distribution over a fixed set of options rather than free text — as an alternative to LLMs for simulating human economic behaviour. Testing 10 DMs against 8 LLMs on household consumption surveys, classic economic games, and labour market experiments, leading DMs better reproduce the diversity of human responses than LLMs across all three settings, while running about 10x faster and over 100x cheaper; they perform relatively less well on economic games than on survey data. [Read more](https://arxiv.org/abs/2611.05553)
+
+![](/images/decision-models-turing-test-kl-divergence.png){fig-alt="Scatter plot comparing Turing test comparisons-won percentage against KL divergence from humans for decision models, LLMs, and a uniform baseline"}

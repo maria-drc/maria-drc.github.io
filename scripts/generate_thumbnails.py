@@ -35,6 +35,7 @@ CROPS = {
     "machine-spirits-bubbles.png": None,
     "self-building-benchmarks-occupation-performance.png": None,
     "economy-evolving-complex-system-iv-cover.png": None,
+    "decision-models-turing-test-kl-divergence.png": None,
 }
 
 

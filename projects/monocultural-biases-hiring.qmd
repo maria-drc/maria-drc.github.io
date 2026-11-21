@@ -1,0 +1,12 @@
+---
+title: "Monocultural Biases in LLM Hiring"
+category: ai-jobs-public-data
+labels: [AI and Jobs, AI and the Economy]
+date: 2026-09
+paper: https://arxiv.org/abs/2609.22169
+venue: "arXiv"
+description: "Post-training makes LLMs better hiring judges on average but correlates their biases across models, raising systemic exclusion of older applicants from 5.6% to 17.3%."
+order: 2
+---
+
+**Monocultural Biases: Correlated biases in large language models lead to unequal systemic exclusion rates in hiring.** We study ten LLMs, in both base and post-trained versions, used for hiring automation. Post-training improves callback quality for top candidates but makes models more alike in who they reject: systemic exclusion (being rejected by most models an applicant is evaluated by) rises from 5.6% to 17.3%, reaching 12.2-21.7% for individual post-trained models. This emerges largely through age-based discrimination introduced during post-training, with post-trained models 3.6% less likely to call back older applicants. [Read more](https://arxiv.org/abs/2609.22169)
